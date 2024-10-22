@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/province-logo.png">
+
+    <title>Provincial Government of Negros Oriental</title>
+    <!-- CSS Plugins -->
+		<link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS Global -->
+    <!--build:css assets/css/theme.min.css-->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!--endbuild-->
+
+  </head>
+  <body id="teacher-profile__page">
+
+    <!-- Navbar
+    ================================================== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+	  
+		  <!-- Header -->
+		  <div class="navbar-header">
+  
+			<!-- Collapse toggle -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar__collapse" aria-expanded="false">
+			  <span class="sr-only">Menu</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+  
+			<!-- Logo -->
+			<a class="navbar-brand" href="https://www.gov.ph/">
+				GOV.PH<span></span>
+			</a>
+  
+		  </div> <!-- / .navbar-header -->
+	  
+		  <!-- Links -->
+		  <div class="collapse navbar-collapse" id="navbar__collapse">
+			<ul class="nav navbar-nav navbar-left">
+			  <li><a href="index-2.html">Home <span class="sr-only">(current)</span></a></li>
+			  <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transparency <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					  <li><a href="full-disclosure.html">Full Disclosure</a></li>
+					  <li><a href="sp-reso.html">SP Resolutions</a></li>
+					  <li><a href="acc-reports.html">Accomplishment Reports</a></li>
+					  <li><a href="bayanihan-grant.html">Bayanihan Grant to Provinces</a></li>
+					  <li><a href="tofiu.html">Typhoon Odette Financial Aid Utilization</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="procurement.html">Procurement</a></li>
+			  <li><a href="blog-right-sidebar.html">News</a></li>
+			  <li class="dropdown active">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="residents.html">Residents </a></li>
+					<li><a href="natural-resources.html">Natural Resources</a></li>
+					<li><a href="human-resources.html">Human Resources</a></li>
+					<li><a href="basic-economic-services.html">Basic Economic Services</a></li>
+					<li><a href="social-services.html">Social Services</a></li>
+					<li class="active"><a href="infrastructure.html">Infrastructure</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="capitol-building.html">Capitol Building</a></li>
+					<li><a href="about.html">About Us</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+			  
+			  <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> </a></li>
+			
+			  <li class="hidden-xs">
+				
+				<!-- Search toggle -->
+				<a href="#" class="navbar-search__toggle">
+				  <i class="ion-search"></i>
+				</a>
+  
+				<!-- Search form -->
+				<div class="navbar-search">
+				  <form>
+  
+					<!-- Input -->
+					<div class="navbar-search__box">
+					  <div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+						  <button type="submit" class="btn btn-accent"><i class="ion-search"></i></button>
+						</span>
+					  </div>
+					</div> <!-- / .navbar-search__box -->
+  
+				  </form>
+				</div> <!-- / .navbar-search -->
+  
+			  </li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+  
+		</div><!-- /.container -->
+	  </nav>
+
+    <!-- CONTENT
+      ================================================== -->
+		
+		<!-- SIGNIN MODAL
+      ================================================== -->
+		<div class="modal fade" id="signinModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Sign In</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signin__form">
+
+			            <!-- Sign In form -->
+			            <form class="signin__form" role="form">
+			            	<!-- Email -->
+						  			<div class="form-group">
+				              <label for="sign-in__email" class="sr-only">Enter email</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-android-person"></i></span>
+				                <input type="email" class="form-control" id="sign-in__email" placeholder="Enter email">
+				              </div>
+			              </div>
+			              <!-- Password -->
+						  			<div class="form-group">
+				              <label for="sign-in__password" class="sr-only">Enter password</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-locked"></i></span>
+				                <input type="password" class="form-control" id="sign-in__password" placeholder="Password">
+				              </div>
+				            </div>
+			              <div class="checkbox">
+			                <label>
+			                  <input type="checkbox"> Remember me
+			                </label>
+			              </div>
+			              <button type="submit" class="btn btn-accent btn-block">Submit</button>
+			            </form>
+
+			            <div class="signin__alt">
+			            	<p>or sign in with social media</p>
+			            	<ul class="signin__social">
+			            		<li class="twitter"><a href="#"><i class="ion-social-twitter"></i></a></li>
+				              <li class="facebook"><a href="#"><i class="ion-social-facebook"></i></a></li>
+				              <li class="googleplus"><a href="#"><i class="ion-social-googleplus"></i></a></li>
+			            	</ul>
+			            </div>
+
+			            <!-- Sign Up link -->
+			            <hr>
+			            <p>Not registered? <a href="#signupModal">Create an Account.</a></p>
+
+			            <!-- Lost password form -->
+			            <p>
+			              Forgot password? <a href="#lost-password__form" data-toggle="collapse" aria-expanded="false" aria-controls="lost-password__form">Click here to recover.</a>
+			            </p>
+			            <div class="collapse" id="lost-password__form">
+			              <p class="text-muted">
+			                Enter your email address below and we will send you a link to reset your password.
+			              </p>
+			              <form class="form-inline" role="form">
+			                <div class="form-group">
+			                  <label class="sr-only" for="lost-password__email">Email address</label>
+			                  <input type="email" class="form-control" id="lost-password__email" placeholder="Enter email">
+			                </div>
+			                <button type="submit" class="btn btn-accent">Send</button>
+			              </form>
+			            </div> <!-- lost-password__form -->
+			          </div> <!-- / .body-signin__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- SIGNUP MODAL
+      ================================================== -->
+		<div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Create a New Account</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signup__form">
+									
+									<!-- Sign In form -->
+			            <div class="profile__sign-up">
+
+				            <form class="signup__form" role="form">
+				              <div class="form-group">
+				                <label class="sr-only">Full name</label>
+				                <input type="text" class="form-control" placeholder="Full name">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">Username</label>
+				                <input type="text" class="form-control" placeholder="Username">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">E-mail</label>
+				                <input type="email" class="form-control" placeholder="E-mail">
+				              </div>
+				              <div class="row">
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Password</label>
+				                    <input type="password" class="form-control" placeholder="Password">
+				                  </div>
+				                </div>
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Repeat password</label>
+				                    <input type="password" class="form-control" placeholder="Repeat password">
+				                  </div>
+				                </div>
+				              </div>
+				              <div class="checkbox">
+				                <label>
+				                  <input type="checkbox"> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+				                </label>
+				              </div><br>
+				              <button type="submit" class="btn btn-block btn-accent">
+				                Sign Up
+				              </button>
+				            </form>
+
+				            <hr>
+
+				            <p>
+				              Already registered? <a href="#signinModal">Sign in to your account</a>
+				            </p>
+
+				          </div> <!-- / .profile__sign-up -->
+			          </div> <!-- / .body-signup__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+   	<!-- section home -->
+   	<section class="section__home">
+      <div class="container home__body">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="home__content">
+
+              <!-- Heading -->
+			   
+              <h1 class="home__heading">
+                
+              </h1>
+
+              <!-- Breadcrumbs -->
+              <ol class="breadcrumb">
+							  <li><a href="index-2.html">Home</a></li>
+							  <li class="active">Infrastructure</li>
+							</ol>
+
+            </div> <!-- / .home__content -->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Background image -->
+      <div class="home__bg"></div>
+    </section>
+		
+	<!-- section teacher profile -->
+    <section class="section__teacher-profile">
+    	<div class="container">
+    	  <div class="row">
+			<div class="col-sm-6 col-md-8">
+				<!-- <div class="teacher__post">
+					  Professor
+				  </div> -->
+				  <h2 class="teacher__name">
+					  Infrastructure
+				  </h2>
+				  <div class="teacher__branch">
+					  Posted on: 
+				  </div>
+					<p class="subheading"></p>
+					<h2>Transportaion</h2>
+					<p class="teacher__text"><u>Roads</u></p>
+					<p class="teacher__text">Road surface analysis in the province shows that there is a total of 909.768 kilometers of national and provincial roads, 120.42 kilometers of which are concrete-paved, 308.885 kilometers or 33.95 per cent are asphalt-paved, 352.596 kilometers or 38.76 per cent are gravel roads and 127.867 kilometers or 14.05 per cent are earth roads.</p>
+				  	<p class="teacher__text">The Department of Public Works and Highways (DPWH) has put up engineering district office in each congressional district. As of May 2003, the three engineering districts in the province recorded a combined total of 375.86 kilometers of national roads. Of this total length, 99.733 kilometers or 26.53 per cent are concrete paved, 259.021 kilometers or 69.91 per cent are asphalt paved, and 17.106 kilometers or 4.55 per cent are gravel roads.</p>
+				  	<p class="teacher__text">The DPWH Negros Oriental First Engineering District Office is based in Guihulngan and covers the City of Canlaon and the municipalities of Manjuyod, Bindoy, Ayungon, Tayasan, Jimalalud, La Libertad, Guihulngan and Vallehermoso. This district has a total of 124.592 kilometers of roads, 55.278 kilometers (44.37 per cent) of these are concrete paved, 68.713 kilometers (55.15 per cent) asphalt paved, and 0.601 kilometers (0.48 per cent) are gravel roads.</p>
+					<p class="teacher__text">The DPWH Negros Oriental Second Engineering District Office, which holds office in Dumaguete City, covers the cities of Dumaguete, Tanjay and Bais and the municipalities of Sibulan, San Jose, Amlan, and Mabinay. It has for its record a total of 110.027 kilometers of road, 4.384 kilometers (3.98 per cent) of which are concrete paved, 105.643 kilometers (96.02 per cent) asphalt-paved. There are no gravel roads in this district.</p>
+					<p class="teacher__text">The DPWH Negros Oriental Third Engineering District Office holds office in the municipality of Siaton and covers the City of Bayawan and the municipalities of Valencia, Bacong, Dauin, Zamboangita, Siaton, Sta. Catalina, and Basay. Its coverage area includes 144.495 kilometers of roads, 41.70 kilometers (28.86 per cent) of these are concrete paved, 86.21 kilometers (59.66 per cent) asphalt paved, and 16.585 kilometers (11.48 per cent) are gravel roads.</p>
+				  	<p class="teacher_text">The Provincial Engineer’s Office in Negros Oriental has constructed/improved a total provincial road length of 494.578 kilometers, 70.641 kilometers (14.28 per cent) of which are concrete-paved, 43.864 kilometers (8.87 per cent) are asphalt-paved, 332.628 kilometers (65.23 per cent) are gravel roads, and 57.445 kilometers (11.62 per cent) are earth roads.</p>
+
+				  	<p class="teacher__text"><u>Bridges</u></p>
+					<p class="teacher__text">There are 140 national bridges in Negros Oriental with a total length of 4,782 linear meters, 139 of which are permanent bridges and one is a temporary bridge. A few of these bridges have already undergone repairs and upgrading, especially the bridge approaches.</p>
+				  	<p class="teacher__text">There are 17 provincial farm-to-market bridges with an aggregate length of 434.68 linear meters, 189.91 linear meters of which are temporary or made of timber; 25.14 linear meters are concrete girder bridges; and 219.63 linear meters are reinforced concrete deck girder.</p>
+
+					<p class="teacher__text"><u>Airport</u></p>
+					<p class="teacher__text">The Dumaguete City airport is the only major airport in Negros Oriental serving daily domestic flights to and from Manila with two airline companies (Air Philippines and Cebu Pacific).  Its facilities are for all weather conditions. The province has also two private airports, one located in Tolong, Sta. Catalina and the other in the Pamplona Estate in Pamplona. Another private airport is soon to be constructed in Bayawan City.</p>
+
+					<p class="teacher__text"><u>Land Transportation Utilities</u></p>
+					<p class="teacher__text">Land transport vehicles are categorized into three classes.  These are private vehicles, for hire and government vehicles.  Private vehicles include Light (cars), medium, heavy, Sports Utility Vehicle (SUV), Utility Vehicle (UV), Truck (T), Truck Bus (TB), Motorcycle (MC) and Trailer (TRL), categorized into Trailer Medium (TRM)  and Trailer Heavy (TRH).  For hire vehicles include Taxi, Utility Vehicle (UV) , Truck, Truck- Bus-(TB), Motorcycle for Hire (MCH), and Trailer (TRL).  Government vehicles include Light (L), Sports Utility Vehicle (SUV), Utility Vehicle (UV), Truck (T), Truck Bus (TB), and Motorcycle (MC).</p>
+					<p class="teacher__text">Under private category, Motorcycle (MC) consistently registered the highest number of units since 2002 and 2004, followed by motorcycle for hire.</p>
+
+					<p class="teacher__text"><u>Seaport</u></p>
+					<p class="teacher__text">The Philippine Ports Authority’s Port Management Office (PMO-Dumaguete) has assumed jurisdiction over all government and private ports in the province since 2002. The government ports handle both passenger and cargo traffic while the private ports are generally utilized for the shipment of cargoes. The Dumaguete seaport is a major link to Mindanao traffic and is part of the “Strong Republic Nautical Highway” route.</p>
+				  	<p class="teacher__text">The Guihulngan Port caters mainly to small vessels ferrying passengers between Guihulngan and Tangil, Dumanjug, Cebu. Port facilities include an L-type 6-meter wide by 55-meter long reinforced concrete finger pier, and a berthing area of 99 meters with six (6) cleats mooring fixtures. Two shipping lines also operate in this port, the Rodriguez Shipping and Pages Shipping. The recorded operational statistics for this port is shown on the following page.</p>
+				  	<p class="teacher__text">Based on the PPA operational statistics for 1999, the Port of Dumaguete had the most number of shipcalls made by domestic and inter-island vessels with 7,185, followed by the Port of Tandayag with 5,317, and the Port of Guihulngan with 1,620. These shipcalls resulted in an estimated 324,241 metric tons of cargo for the Port of Dumaguete. The Ports of Tandayag and Guihulngan had 132,413 and 830 metric tons of cargoes respectively.</p>
+					<p class="teacher__text">A  total of 1,230,000 passengers embarked/disembarked at the Port of Dumaguete in the year 1999. Of this number, about 625,917 or 50.9 percent were outbound passengers. The Ports of Tandayag had 332,929 and 176,003 embarking/disembarking passengers at the port of Guihulngan in the same year.  Shown below is the PPA traffic report from 1996 to the year 2002.</p>
+
+					<p class="subheading"></p>
+					<h2>Water Supply</h2>
+					<p class="teacher__text">Dumaguete City and five municipalities in the province have high access to potable water.  Forty per cent of the total households are served with Level I water systems, 23.75 per cent with Level II system and 24.03 per cent with Level III system. Others get water from doubtful sources.</p>
+					<p class="teacher__text">Dumaguete has the highest percentage of households with potable water at 100 per cent, followed by Bacong with 98.9 per cent, Amlan with 98.3 per cent, San Jose with 96.1 per cent, and Sibulan and Tanjay both with 95.3 per cent. The municipality with the lowest percentage of households with access to potable water is Jimalalud with 45.1 per cent.</p>
+					<p class="teacher__text">The housedhold served with water supply presents the status of water supply projects as reported by the Provincial Waterworks Task Force in December 2003.</p>
+
+					<p class="subheading"></p>
+					<h2>Irrigation</h2>
+					<p class="teacher__text">As of December 2002, NIA has constructed and made operational a total of 36 Communal Irrigation Systems (CIS) with a total service area of 5,611 hectares. Nine are located in the First Congressional District with a service area of 1,375 hectares; eight in the Second Congressional District with a service area of 1,290 hectares; and 19 in the Third Congressional District with a service area of 2,946 hectares. Other government agencies have also constructed 44 CIS with a total service area of 1,851 hectares, 16 of which are in the First Congressional District with a service area of 1,155 hectares, seven in the Second Congressional District with a service area of 211 hectares, and 21 CIS in the Third Congressional District with a service area of 484 hectares. The private sector also constructed 11 CIS with a total service area of 310 hectares.</p>
+
+					<p class="subheading"></p>
+					<h2>Communication Facilities</h2>
+					<p class="teacher__text">Telecommunication facilities operating in the province include telephone system, cable television stations, telegraph stations, and telex station exchange.  Each municipality and city has postal station that caters to the populace far and near the town or city proper.  Private telephone companies are maintaining modern telephone equipment, giving access to all major cities in 116 countries in the world on a 24-hour basis through IDD and NDD.</p>
+					<p class="teacher__text">Although some cities and municipalities have direct contact through telephones, cellular phones and single-side band radio sets, majority of these cities and municipalities still need adequate communication lines.</p>
+
+					<p class="subheading"></p>
+					<h2>Internet Cafes</h2>
+					<p class="teacher__text">There are 47 Internet Cafés that operate in Negros Oriental.  Thirty of these are in Dumaguete City.  The rest can be found in the cities of Bais, Tanjay and Bayawan and the municipalities of Sibulan and Bacong.</p>
+
+					<p class="subheading"></p>
+					<h2>Power</h2>
+					<p class="teacher__text"><u>Power Generation</u></p>
+					<p class="teacher__text">Negros Oriental’s primary source of power is the geothermal energy harnessed from the geothermal fields in Palinpinon, Valencia.  There are two power plants generating geothermal energy which has a combined capacity of 192.5 mega watts.</p>
+				  	<p class="teacher__text">Power rates in Negros Oriental is observed to be higher than those in the neighboring provinces notwithstanding the fact that it is the source of geothermal power interconnection that supply the Cebu-Panay-Leyte-Negros grid .   A larger portion of the availablable power is consumed for household or domestic use.</p>
+				  	<p class="teacher__text">Power rates charged by electric cooperatives to consumers are grouped according to type.  Consumers are categorized as residential,  small industries, large industries, irrigation system, public buildings, etc.  Following is the presentation of the rates as approved by the Energy Regulatory Board.</p>
+
+				  	<p class="subheading"></p>
+					<h2>Drainage and Flood Control System</h2>
+					<p class="teacher__text">The province has adequate rivers, streams, creeks, canals and channels that form the drainage network.  These channels drain towards the eastern, southern, and western coastal regions before finally emptying their load into the sea.</p>
+		  	</div>
+    	  </div> <!-- / .row -->
+    	</div> <!-- / .container -->
+    </section> <!-- / .section__teacher-profile -->
+
+	<!-- section footer -->
+	<footer class="section__footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-sm-4">
+				<div class="footer_title__body">
+					<img src="assets/ico/govph-seal.png" class="img-responsive" alt="">
+					<p>
+						REPUBLIC OF THE PHILIPPINES
+					</p>
+					<!-- <div class="footer__subtitle"> -->
+						<p>All content is in the public domain unless otherwise stated.</p>
+					<!-- </div> -->
+				</div> <!-- / .footer_title__body -->
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>ABOUT GOVPH</li>
+					<li>Learn more about the Philippine government, its structure, how government works and the people behind it.</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> GOV.PH</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Open Data Portal</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Official Gazette</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>GOVERNMENT LINKS</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the President</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the Vice President</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Senate of the Philippines</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> House of Representatives</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Supreme Court</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Court of Appeals</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Sandiganbayan</a></li>
+				</ul>
+			</div>
+
+		   
+				
+			</div>
+		  </div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</footer> <!-- .section__footer -->
+	
+	<!-- section footer copyright -->
+	<div class="footer__copyright">
+  <div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
+			<div class="copyright__content">
+			<p>Philippine Standard Time: <br>
+			Day, Month, Day, Year, Time, AM/PM</p>
+		</div>
+		<!-- <ul class="quick__links">
+			<li>| <a href="index-2.html">Home</a> |</li>
+			<li><a href="about.html">About</a> |</li>
+			<li><a href="courses.html">Courses</a> |</li>
+			<li><a href="blog-grid.html">Blog</a> |</li>
+			<li><a href="contact.html">Contact</a> |</li>
+		</ul> -->
+	  </div>
+	  <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-6 col-md-pull-6">
+		<div class="copyright__content">
+		  <p>&#169; NEGOR.GOV.PH | All rights reserved.</p>
+		</div>
+	  </div>
+	</div> <!-- / .row -->
+  </div> <!-- / .container -->
+	</div> <!-- / .footer__copyright -->
+
+    <!-- JS Global -->
+    <script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/aos-master/dist/aos.js"></script>
+		<script src="assets/plugins/smothscroll/smoothscroll.js"></script>
+    <!-- JS Plugins -->
+
+    <!-- JS Custom -->
+    <!--build:js assets/js/theme.min.js -->
+    <script src="assets/js/theme.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/province-logo.png">
+
+    <title>Provincial Government of Negros Oriental</title>
+    <!-- CSS Plugins -->
+		<link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS Global -->
+    <!--build:css assets/css/theme.min.css-->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!--endbuild-->
+
+  </head>
+  <body id="teacher-profile__page">
+
+    <!-- Navbar
+    ================================================== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+	  
+		  <!-- Header -->
+		  <div class="navbar-header">
+  
+			<!-- Collapse toggle -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar__collapse" aria-expanded="false">
+			  <span class="sr-only">Menu</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+  
+			<!-- Logo -->
+			<a class="navbar-brand" href="https://www.gov.ph/">
+				GOV.PH<span></span>
+			</a>
+  
+		  </div> <!-- / .navbar-header -->
+	  
+		  <!-- Links -->
+		  <div class="collapse navbar-collapse" id="navbar__collapse">
+			<ul class="nav navbar-nav navbar-left">
+			  <li><a href="index-2.html">Home <span class="sr-only">(current)</span></a></li>
+			  <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transparency <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					  <li><a href="full-disclosure.html">Full Disclosure</a></li>
+					  <li><a href="sp-reso.html">SP Resolutions</a></li>
+					  <li><a href="acc-reports.html">Accomplishment Reports</a></li>
+					  <li><a href="bayanihan-grant.html">Bayanihan Grant to Provinces</a></li>
+					  <li><a href="tofiu.html">Typhoon Odette Financial Aid Utilization</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="procurement.html">Procurement</a></li>
+			  <li><a href="blog-right-sidebar.html">News</a></li>
+			  <li class="dropdown active">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="residents.html">Residents </a></li>
+					<li><a href="natural-resources.html">Natural Resources</a></li>
+					<li><a href="human-resources.html">Human Resources</a></li>
+					<li><a href="basic-economic-services.html">Basic Economic Services</a></li>
+					<li><a href="social-services.html">Social Services</a></li>
+					<li><a href="infrastructure.html">Infrastructure</a></li>
+					<li class="active"><a href="history.html">History</a></li>
+					<li><a href="capitol-building.html">Capitol Building</a></li>
+					<li><a href="about.html">About Us</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+			  
+			  <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> </a></li>
+			
+			  <li class="hidden-xs">
+				
+				<!-- Search toggle -->
+				<a href="#" class="navbar-search__toggle">
+				  <i class="ion-search"></i>
+				</a>
+  
+				<!-- Search form -->
+				<div class="navbar-search">
+				  <form>
+  
+					<!-- Input -->
+					<div class="navbar-search__box">
+					  <div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+						  <button type="submit" class="btn btn-accent"><i class="ion-search"></i></button>
+						</span>
+					  </div>
+					</div> <!-- / .navbar-search__box -->
+  
+				  </form>
+				</div> <!-- / .navbar-search -->
+  
+			  </li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+  
+		</div><!-- /.container -->
+	  </nav>
+
+    <!-- CONTENT
+      ================================================== -->
+		
+		<!-- SIGNIN MODAL
+      ================================================== -->
+		<div class="modal fade" id="signinModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Sign In</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signin__form">
+
+			            <!-- Sign In form -->
+			            <form class="signin__form" role="form">
+			            	<!-- Email -->
+						  			<div class="form-group">
+				              <label for="sign-in__email" class="sr-only">Enter email</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-android-person"></i></span>
+				                <input type="email" class="form-control" id="sign-in__email" placeholder="Enter email">
+				              </div>
+			              </div>
+			              <!-- Password -->
+						  			<div class="form-group">
+				              <label for="sign-in__password" class="sr-only">Enter password</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-locked"></i></span>
+				                <input type="password" class="form-control" id="sign-in__password" placeholder="Password">
+				              </div>
+				            </div>
+			              <div class="checkbox">
+			                <label>
+			                  <input type="checkbox"> Remember me
+			                </label>
+			              </div>
+			              <button type="submit" class="btn btn-accent btn-block">Submit</button>
+			            </form>
+
+			            <div class="signin__alt">
+			            	<p>or sign in with social media</p>
+			            	<ul class="signin__social">
+			            		<li class="twitter"><a href="#"><i class="ion-social-twitter"></i></a></li>
+				              <li class="facebook"><a href="#"><i class="ion-social-facebook"></i></a></li>
+				              <li class="googleplus"><a href="#"><i class="ion-social-googleplus"></i></a></li>
+			            	</ul>
+			            </div>
+
+			            <!-- Sign Up link -->
+			            <hr>
+			            <p>Not registered? <a href="#signupModal">Create an Account.</a></p>
+
+			            <!-- Lost password form -->
+			            <p>
+			              Forgot password? <a href="#lost-password__form" data-toggle="collapse" aria-expanded="false" aria-controls="lost-password__form">Click here to recover.</a>
+			            </p>
+			            <div class="collapse" id="lost-password__form">
+			              <p class="text-muted">
+			                Enter your email address below and we will send you a link to reset your password.
+			              </p>
+			              <form class="form-inline" role="form">
+			                <div class="form-group">
+			                  <label class="sr-only" for="lost-password__email">Email address</label>
+			                  <input type="email" class="form-control" id="lost-password__email" placeholder="Enter email">
+			                </div>
+			                <button type="submit" class="btn btn-accent">Send</button>
+			              </form>
+			            </div> <!-- lost-password__form -->
+			          </div> <!-- / .body-signin__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- SIGNUP MODAL
+      ================================================== -->
+		<div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Create a New Account</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signup__form">
+									
+									<!-- Sign In form -->
+			            <div class="profile__sign-up">
+
+				            <form class="signup__form" role="form">
+				              <div class="form-group">
+				                <label class="sr-only">Full name</label>
+				                <input type="text" class="form-control" placeholder="Full name">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">Username</label>
+				                <input type="text" class="form-control" placeholder="Username">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">E-mail</label>
+				                <input type="email" class="form-control" placeholder="E-mail">
+				              </div>
+				              <div class="row">
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Password</label>
+				                    <input type="password" class="form-control" placeholder="Password">
+				                  </div>
+				                </div>
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Repeat password</label>
+				                    <input type="password" class="form-control" placeholder="Repeat password">
+				                  </div>
+				                </div>
+				              </div>
+				              <div class="checkbox">
+				                <label>
+				                  <input type="checkbox"> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+				                </label>
+				              </div><br>
+				              <button type="submit" class="btn btn-block btn-accent">
+				                Sign Up
+				              </button>
+				            </form>
+
+				            <hr>
+
+				            <p>
+				              Already registered? <a href="#signinModal">Sign in to your account</a>
+				            </p>
+
+				          </div> <!-- / .profile__sign-up -->
+			          </div> <!-- / .body-signup__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+   	<!-- section home -->
+   	<section class="section__home">
+      <div class="container home__body">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="home__content">
+
+              <!-- Heading -->
+			   
+              <h1 class="home__heading">
+                
+              </h1>
+
+              <!-- Breadcrumbs -->
+              <ol class="breadcrumb">
+							  <li><a href="index-2.html">Home</a></li>
+							  <li class="active">History</li>
+							</ol>
+
+            </div> <!-- / .home__content -->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Background image -->
+      <div class="home__bg"></div>
+    </section>
+		
+	<!-- section teacher profile -->
+    <section class="section__teacher-profile">
+    	<div class="container">
+    	  <div class="row">
+
+    	    <div class="col-sm-6 col-md-8">
+  	    		<!-- <div class="teacher__post">
+    					Professor
+    				</div> -->
+    				<h2 class="teacher__name">
+    					History
+    				</h2>
+    				<div class="teacher__branch">
+    					Posted on: 
+    				</div>
+					<p class="subheading"></p>
+					<h2>Political History and Cultural History</h2>
+					<p class="teacher__text">The expedition of Ferdinand Magellan that arrived in the Philippines on March 16, 1521, and the succeeding expeditions in the following decades, has not been able to reach the island of Negros. It was only in 1571 or fifty years later when Legazpi came that the Spaniards discovered the island of Negros. Historical accounts compiled by Prof. Caridad Aldecoa-Rodriguez, a renowned local historian, have in her book, ““Negros Oriental and the Philippine Revolution”, that while anchored in the island of Bohol, Legaspi dispatched a frigate to reconnoiter the coasts of the islands that were visible from that point.</p>
+					<p class="teacher__text">Legaspi and his men found the natives inhospitable, but there were plenty of food in the island. It was during the time of Legaspi that distribution of big tracts of land (encomiendas) to 15 encomenderos residing in Cebu and Iloilo was done. Three of the encomiendas were the Rios de Tanae (Tanjay), “Davi” (Dauin) and “Monalongon” (Manalongon) in the southern part of Negros Oriental. Tributes collected were, however, sent to Cebu or Iloilo governments where funds of Negros were administered. It was in 1734 when a separate military district government was established in the island.</p>
+					<p class="teacher__text">As settlements in Negros Oriental continually grew and swelled out to other points along the coast, the sugar cane plantation expanded just as fast. Meantime, the government officials who resided in Bacolod could hardly cope up with government functions and rarely visited the Oriental part due to the inadequacy of roads and difficulty in communication facilities. Consequently, the socio-economic life of the Oriental Negrenses suffered a great setback. There was a pressing need for more officials to supervise closely government functions such as strengthening defenses against devastating Moro raids, apprehending and trying criminals, and opening of more curacies. A petition to separate Negros Oriental from Negros Occidental was presented to the Governor General, recommending the town of Dumaguete as capital. Thirteen years later, Governor General Valeriano Weyler, in compliance with a royal decree dated October 25, 1889, established Negros Oriental as a separate province on January 1, 1890 with an estimated population (the Negritos living in the hinterland had no accurate counts) of 94,782 consisting of 17 towns of Guihulngan, Jimalalud, Tayasan, Ayungon, Manjuyod, Bais, Tanjay, Amlan, Ayuquitan, Sibulan, Dauin, Nueva Valencia, Bacong, Dumaguete, Zamboanguita, Siaton and Tolong. The appointed Politico-Militar was Joaquin Tavera.</p>
+					<p class="teacher__text">The new province left no time concerning itself with local administration and development. Public works and other needs of the towns were attended to with public funds. A court of peace was put up in every town and, at the provincial capital town, a Court of First Instance. But in the later part of 1898, Negros Oriental rebel forces, under the leadership of Don Diego de la Viña, succeeded in driving the Spanish forces and government officials from all towns. On November 25, 1898, the Provincial Revolutionary Government of Gen. Emilio Aguinaldo was established in Dumaguete, the capital town, with Don Demetrio Larena as Presidente.</p>
+					<p class="teacher__text">On April 9, 1901, the Second Philippine Commission under the Chairmanship of William H. Taft, arrived in Dumaguete. On May 1, 1901, the civil government under American rule was established. On August 28, of the same year Dr. David S. Hibbard founded Silliman Institute now Silliman University.</p>
+					<p class="teacher__text">In 1924, Hon. Herminigildo Villanueva was elected Governor and a Capitol Building was erected. The province experienced real war in a grand scale when World War II broke out in December 1941. The war, aside from the physical devastation wrecked throughout the province, also left painful scars, which up to this date remain unhealed. But the people came out stronger and more determined. However, the people found out that the political independence they gained did not equate economic independence and self-sufficiency. The struggle for the improvement of the quality of life still remains a quest for every Negrense along with the rest of the Filipino nation. Ninety years after 1901, the Local Government Code of 1991 (LGC) was made into law and took effect on January 1, 1992. With the advent of the LGC, a new era in local government finance and administration of reelectionist Governor Emilio C. Macias II spearheaded Negros Oriental in the development of the ‘90s.</p>
+
+					<p class="subheading"></p>
+					<h2>Ethnic Origin of the People</h2>
+					<p class="teacher__text">When the Spanish explorers landed in Negros Oriental in 1565, they found natives who called the place “Buglas”, named after a kind of tall grass resembling the present-day sugar cane plant. Buglas grass was then abundantly growing in the island. The Spaniards encountered many black people with black kinky hair among the inhabitants, they called the island Negros. Kabilin, a book on provincial history, edited by Merlie Wenceslao and Bobby Villasis, mentions what seemed to be the first known documentary reference to the island of Negros appears in an atlas drawn in 1545 by the renowned Spanish cartographer Alonso de Santa Cruz (c.1490-1567). Santa Cruz’s map bears the legend y de Negros, probably derived from reports of the presence of small black people (negritos) on the island. Thus, a score of years before the Legaspi expedition, the Spaniards already knew the island of Negros by this name. At that time, there were two (2) types of forest dwellers, the black natives called Ata or Agta (Negrito) and the Proto-Malay also known as Bukidnon with dark brown skin.</p>
+					<p class="teacher__text">Along the coastline dwelt the natives of Malayan heritage who were engaged in little agricultural activities and barter trading with the Chinese and other Asian merchants who came as early as the 13th century. Although no written documents have been found, artifacts and relics belonging to the Sung Dynasty period in the 12th century were excavated in the towns of Bacong, Bayawan (now Bayawan City) and La Libertad in Negros Oriental and Escalante in Negros Occidental. This indicates a flourishing trade and commerce with other neighboring countries such as China, India and the Malayan peninsula.</p>
+
+					<p class="subheading"></p>
+					<p class="teacher__text">List of former Provincial Chief Executives</p>
+    				<div class="row">
+						<table class="table table-striped">
+							<thead>
+							  <tr>
+								<th scope="col">Year/Term</th>
+								<th scope="col">Title</th>
+								<th scope="col">Name</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<th scope="row">Jan1890 – Jan. 1891</th>
+								<td>Gobernadorcillo</td>
+								<td>Joaquin Pardo de Tavera								</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Jan 1891 – Jan. 1892</th>
+								<td>Gobernadorcillo</td>
+								<td>Luis de la Torre</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Jan. 1892 – Aug. 1892</th>
+								<td>Gobernadorcillo</td>
+								<td>T. Gutierrez de la Vega</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Aug. 1892 – June 1894</th>
+								<td>Gobernadorcillo</td>
+								<td>Victor Espada</td>
+							  </tr>
+							  <tr>
+								<th scope="row">June 1894 – Feb. 1895</th>
+								<td>Gobernadorcillo</td>
+								<td>Adolfo Asuncion</td>
+							  </tr>
+							  <tr>
+								<th scope="row">Feb. 1895 – May 1897</th>
+								<td>Gobernadorcillo</td>
+								<td>Emilio Regaler</td>
+							  </tr>
+							  <tr>
+								<th scope="row">July 1897 – Nov. 1898</th>
+								<td>Gobernadorcillo</td>
+								<td>Antonio Ferrer</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1907 – 1911</th>
+								<td>Governor</td>
+								<td>Herminigildo Villanueva</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1911- 1912</th>
+								<td>Governor</td>
+								<td>Don Juan Montenegro</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1912-1916</th>
+								<td>Governor</td>
+								<td>Don Felipe Tayko</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1916-1925</th>
+								<td>Governor</td>
+								<td>Enrique Cayetano Villanueva</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1925-1931</th>
+								<td>Governor</td>
+								<td>Atilano Villegas</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1931-1935</th>
+								<td>Governor</td>
+								<td>Herminigildo Villanueva</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1935-1941</th>
+								<td>Governor</td>
+								<td>Don Julian Lajato Teves</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1941-1944</th>
+								<td>Governor</td>
+								<td>Guillermo Zosimo Villanueva</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1944-1945</th>
+								<td>Governor (appointed)</td>
+								<td>Lorenzo G. Teves</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1945-1946</th>
+								<td>Governor</td>
+								<td>Alberto Furbeyre</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1946-1951</th>
+								<td>Governor</td>
+								<td>Don Praxedes Teves Villanueva</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1951-1955</th>
+								<td>Governor</td>
+								<td>Don Pedro Bandoquillo</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1955-1959</th>
+								<td>Governor</td>
+								<td>Don Serafin L. Teves</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1960-1972</th>
+								<td>Governor</td>
+								<td>Mariano Francisco Perdices</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1972-1978</th>
+								<td>Governor</td>
+								<td>William V. Villegas</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1978</th>
+								<td>Governor (appointed)</td>
+								<td>Lorenzo G. Teves</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1979-1987</th>
+								<td>Governor (elected)</td>
+								<td>Lorenzo G. Teves</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1987-1990</th>
+								<td>Governor</td>
+								<td>Herminio G. Teves</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1990-1998</th>
+								<td>Governor</td>
+								<td>Emilio C. Macias II, M.D.</td>
+							  </tr>
+							  <tr>
+								<th scope="row">1998-2007</th>
+								<td>Governor</td>
+								<td>George P. Arnaiz</td>
+							  </tr>
+							  <tr>
+								<th scope="row">2007 to June 13, 2010</th>
+								<td>Governor</td>
+								<td>Emilio C. Macias II, M.D.</td>
+							  </tr>
+							  <tr>
+								<th scope="row">June 13 - 20, 2010</th>
+								<td>Governor</td>
+								<td>Jose A. Baldado</td>
+							  </tr>
+							  <tr>
+								<th scope="row">July 1, 2010 to January 5, 2011</th>
+								<td>Governor</td>
+								<td>Agustin Ramon M. Perdices</td>
+							  </tr>
+							  <tr>
+								<th scope="row">January 5, 200 - Present</th>
+								<td>Governor</td>
+								<td>Roel R. Degamo</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+					<p class="teacher__text">Source:  1990 Census on Population</p>
+					<p>The table above provides the 1990 figures of the people residing in the province with their individiual citizenship. A big number of Chinese nationals residing in the province are naturalized Filipino citizens.  The same table shows that the second largest number of citizens in the province is Chinese, followed by British then by the Americans.  Australians are the least number of nationals living in Negros Oriental.
+
+					</p>
+    	    </div>
+    	  </div> <!-- / .row -->
+    	</div> <!-- / .container -->
+    </section> <!-- / .section__teacher-profile -->
+
+	<!-- section footer -->
+	<footer class="section__footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-sm-4">
+				<div class="footer_title__body">
+					<img src="assets/ico/govph-seal.png" class="img-responsive" alt="">
+					<p>
+						REPUBLIC OF THE PHILIPPINES
+					</p>
+					<!-- <div class="footer__subtitle"> -->
+						<p>All content is in the public domain unless otherwise stated.</p>
+					<!-- </div> -->
+				</div> <!-- / .footer_title__body -->
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>ABOUT GOVPH</li>
+					<li>Learn more about the Philippine government, its structure, how government works and the people behind it.</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> GOV.PH</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Open Data Portal</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Official Gazette</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>GOVERNMENT LINKS</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the President</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the Vice President</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Senate of the Philippines</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> House of Representatives</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Supreme Court</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Court of Appeals</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Sandiganbayan</a></li>
+				</ul>
+			</div>
+
+		   
+				
+			</div>
+		  </div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</footer> <!-- .section__footer -->
+	
+	<!-- section footer copyright -->
+	<div class="footer__copyright">
+  <div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
+			<div class="copyright__content">
+			<p>Philippine Standard Time: <br>
+			Day, Month, Day, Year, Time, AM/PM</p>
+		</div>
+		<!-- <ul class="quick__links">
+			<li>| <a href="index-2.html">Home</a> |</li>
+			<li><a href="about.html">About</a> |</li>
+			<li><a href="courses.html">Courses</a> |</li>
+			<li><a href="blog-grid.html">Blog</a> |</li>
+			<li><a href="contact.html">Contact</a> |</li>
+		</ul> -->
+	  </div>
+	  <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-6 col-md-pull-6">
+		<div class="copyright__content">
+		  <p>&#169; NEGOR.GOV.PH | All rights reserved.</p>
+		</div>
+	  </div>
+	</div> <!-- / .row -->
+  </div> <!-- / .container -->
+	</div> <!-- / .footer__copyright -->
+
+    <!-- JS Global -->
+    <script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/aos-master/dist/aos.js"></script>
+		<script src="assets/plugins/smothscroll/smoothscroll.js"></script>
+    <!-- JS Plugins -->
+
+    <!-- JS Custom -->
+    <!--build:js assets/js/theme.min.js -->
+    <script src="assets/js/theme.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>

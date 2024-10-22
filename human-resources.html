@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/province-logo.png">
+
+    <title>Provincial Government of Negros Oriental</title>
+    <!-- CSS Plugins -->
+		<link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS Global -->
+    <!--build:css assets/css/theme.min.css-->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!--endbuild-->
+
+  </head>
+  <body id="teacher-profile__page">
+
+    <!-- Navbar
+    ================================================== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+	  
+		  <!-- Header -->
+		  <div class="navbar-header">
+  
+			<!-- Collapse toggle -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar__collapse" aria-expanded="false">
+			  <span class="sr-only">Menu</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+  
+			<!-- Logo -->
+			<a class="navbar-brand" href="https://www.gov.ph/">
+				GOV.PH<span></span>
+			</a>
+  
+		  </div> <!-- / .navbar-header -->
+	  
+		  <!-- Links -->
+		  <div class="collapse navbar-collapse" id="navbar__collapse">
+			<ul class="nav navbar-nav navbar-left">
+			  <li><a href="index-2.html">Home <span class="sr-only">(current)</span></a></li>
+			  <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transparency <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					  <li><a href="full-disclosure.html">Full Disclosure</a></li>
+					  <li><a href="sp-reso.html">SP Resolutions</a></li>
+					  <li><a href="acc-reports.html">Accomplishment Reports</a></li>
+					  <li><a href="bayanihan-grant.html">Bayanihan Grant to Provinces</a></li>
+					  <li><a href="tofiu.html">Typhoon Odette Financial Aid Utilization</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="">Procurement</a></li>
+			  <li><a href="blog-right-sidebar.html">News</a></li>
+			  <li class="dropdown active">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="residents.html">Residents </a></li>
+					<li><a href="natural-resources.html">Natural Resources</a></li>
+					<li class="active"><a href="human-resources.html">Human Resources</a></li>
+					<li><a href="basic-economic-services.html">Basic Economic Services</a></li>
+					<li><a href="social-services.html">Social Services</a></li>
+					<li><a href="infrastructure.html">Infrastructure</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="capitol-building.html">Capitol Building</a></li>
+					<li><a href="about.html">About Us</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+			  
+			  <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> </a></li>
+			
+			  <li class="hidden-xs">
+				
+				<!-- Search toggle -->
+				<a href="#" class="navbar-search__toggle">
+				  <i class="ion-search"></i>
+				</a>
+  
+				<!-- Search form -->
+				<div class="navbar-search">
+				  <form>
+  
+					<!-- Input -->
+					<div class="navbar-search__box">
+					  <div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+						  <button type="submit" class="btn btn-accent"><i class="ion-search"></i></button>
+						</span>
+					  </div>
+					</div> <!-- / .navbar-search__box -->
+  
+				  </form>
+				</div> <!-- / .navbar-search -->
+  
+			  </li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+  
+		</div><!-- /.container -->
+	</nav>
+
+    <!-- CONTENT
+      ================================================== -->
+		
+		<!-- SIGNIN MODAL
+      ================================================== -->
+		<div class="modal fade" id="signinModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Sign In</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signin__form">
+
+			            <!-- Sign In form -->
+			            <form class="signin__form" role="form">
+			            	<!-- Email -->
+						  			<div class="form-group">
+				              <label for="sign-in__email" class="sr-only">Enter email</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-android-person"></i></span>
+				                <input type="email" class="form-control" id="sign-in__email" placeholder="Enter email">
+				              </div>
+			              </div>
+			              <!-- Password -->
+						  			<div class="form-group">
+				              <label for="sign-in__password" class="sr-only">Enter password</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-locked"></i></span>
+				                <input type="password" class="form-control" id="sign-in__password" placeholder="Password">
+				              </div>
+				            </div>
+			              <div class="checkbox">
+			                <label>
+			                  <input type="checkbox"> Remember me
+			                </label>
+			              </div>
+			              <button type="submit" class="btn btn-accent btn-block">Submit</button>
+			            </form>
+
+			            <div class="signin__alt">
+			            	<p>or sign in with social media</p>
+			            	<ul class="signin__social">
+			            		<li class="twitter"><a href="#"><i class="ion-social-twitter"></i></a></li>
+				              <li class="facebook"><a href="#"><i class="ion-social-facebook"></i></a></li>
+				              <li class="googleplus"><a href="#"><i class="ion-social-googleplus"></i></a></li>
+			            	</ul>
+			            </div>
+
+			            <!-- Sign Up link -->
+			            <hr>
+			            <p>Not registered? <a href="#signupModal">Create an Account.</a></p>
+
+			            <!-- Lost password form -->
+			            <p>
+			              Forgot password? <a href="#lost-password__form" data-toggle="collapse" aria-expanded="false" aria-controls="lost-password__form">Click here to recover.</a>
+			            </p>
+			            <div class="collapse" id="lost-password__form">
+			              <p class="text-muted">
+			                Enter your email address below and we will send you a link to reset your password.
+			              </p>
+			              <form class="form-inline" role="form">
+			                <div class="form-group">
+			                  <label class="sr-only" for="lost-password__email">Email address</label>
+			                  <input type="email" class="form-control" id="lost-password__email" placeholder="Enter email">
+			                </div>
+			                <button type="submit" class="btn btn-accent">Send</button>
+			              </form>
+			            </div> <!-- lost-password__form -->
+			          </div> <!-- / .body-signin__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- SIGNUP MODAL
+      ================================================== -->
+		<div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Create a New Account</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signup__form">
+									
+									<!-- Sign In form -->
+			            <div class="profile__sign-up">
+
+				            <form class="signup__form" role="form">
+				              <div class="form-group">
+				                <label class="sr-only">Full name</label>
+				                <input type="text" class="form-control" placeholder="Full name">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">Username</label>
+				                <input type="text" class="form-control" placeholder="Username">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">E-mail</label>
+				                <input type="email" class="form-control" placeholder="E-mail">
+				              </div>
+				              <div class="row">
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Password</label>
+				                    <input type="password" class="form-control" placeholder="Password">
+				                  </div>
+				                </div>
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Repeat password</label>
+				                    <input type="password" class="form-control" placeholder="Repeat password">
+				                  </div>
+				                </div>
+				              </div>
+				              <div class="checkbox">
+				                <label>
+				                  <input type="checkbox"> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+				                </label>
+				              </div><br>
+				              <button type="submit" class="btn btn-block btn-accent">
+				                Sign Up
+				              </button>
+				            </form>
+
+				            <hr>
+
+				            <p>
+				              Already registered? <a href="#signinModal">Sign in to your account</a>
+				            </p>
+
+				          </div> <!-- / .profile__sign-up -->
+			          </div> <!-- / .body-signup__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+   	<!-- section home -->
+   	<section class="section__home">
+      <div class="container home__body">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="home__content">
+
+              <!-- Heading -->
+			   
+              <h1 class="home__heading">
+                
+              </h1>
+
+              <!-- Breadcrumbs -->
+              <ol class="breadcrumb">
+							  <li><a href="index-2.html">Home</a></li>
+							  <li class="active">Human Resources</li>
+							</ol>
+
+            </div> <!-- / .home__content -->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Background image -->
+      <div class="home__bg"></div>
+    </section>
+		
+	<!-- section teacher profile -->
+    <section class="section__teacher-profile">
+    	<div class="container">
+    	  <div class="row">
+    	    <div class="col-sm-6 col-md-8">
+  	    		<!-- <div class="teacher__post">
+    					Professor
+    				</div> -->
+    				<h2 class="teacher__name">
+    					Human Resources
+    				</h2>
+    				<div class="teacher__branch">
+    					Posted on: 
+    				</div>
+					
+  					<p class="subheading"></p>
+					  <h2>Population</h2>
+  					<p class="teacher__text">
+						The 2000 actual census shows a total population of 1,130,088 with 227,160 households.   Dumaguete City, the province’s capital, has the highest population with 102,265 followed by Bayawan City with 101,391, indicating a difference of 874 inhabitants.</p>
+					<p class="teacher__text">	The municipality of Guihulngan has the highest population among the municipalities with 84,607 followed by Sta. Catalina with 67,197 inhabitants; Mabinay, 67,001; and, Ayungon, 64,258.    San Jose has the lowest population of only 15,665.</p>
+					<p class="teacher__text">	Average household size in the province is 5.9 individuals.  Total household population is 1,128,634.  The number of households s is 227,160.</p>
+					<p class="teacher__text">	A table presents the total population, household population and number of households by municipalities/cities and barangays for the year 2000. </p>
+					<p class="subheading"></p>
+					<h2>Population Growth Rate</h2>
+					<p class="teacher__text">The historical population growth rate of the province shows an erratic trend since 1903.  The years between 1903 and 1939 showed an almost even growth rate, but it dropped from 2.12. per cent in 1939 to 1.59 per cent in 1948. This was during World War II (1941-1945) when families evacuated outside the province and many civilians and soldiers died.</p>
+					<p class="teacher__text">By 1960, growth rate shoot up to 2.8 per cent, the highest in 100 years, but it declined to 1.94 per cent in 1970.  It went as high as  2.57 per cent in 1975 and went down to 2.05 per cent  in 1980 and 1.22 per cent in 1990.  In 1995, the population growth rate of the province rose to 2.07 per cent and declined to 1.89 per cent in 2000.</p>
+					<p class="subheading"></p>
+					<h2>Population Density</h2>
+					<p class="teacher__text">Population density is expressed as the number of people per unit of land area.  Given the land of 5,402.30 square kilometers and a total population of 1,130,088 in 2000, provincial density is 209.18 people per square kilometer.</p>
+					<p class="teacher__text">The least dense since 1990 is Basay with a population density of 74.58, but had increased to 89.84 people per square kilometer in the year 2000,  followed by  Sta. Catalina with only 128.45 people per square kilometer.  Dumaguete City’s population density, also in the same year,  was 2,832.70, 394.31 inhabitants more than the 1990 figure, the highest in the province.</p>
+					<p class="subheading"></p>
+					<h2>Sex Ratio</h2>
+					<p class="teacher__text">Sex ratio is determined by the number of males for every 100 females.  Sex ratio in the province for the last three censal years had been at the range between 101.7 and 102.0. In January 2003, the male population reached 569,917 or 50.43 per cent of the total population of both sexes.</p>
+					<p class="subheading"></p>
+					<h2>Population by Single-Year Age</h2>
+					<p class="teacher__text">The year 2000 census included the single-year age population, a different report from the population by age group in the past censuses.  The highest single-age population from one to 100 years old is  age seven, numbering 31,882, followed, by five and six-year old ages.  Below is a detailed presentation of the single-year age population.</p>
+					<p class="teacher__text">There is a declining trend of population within 0-14 years old from 1975 with 45.5 per cent to 2000 with 38.65 per cent.  Meanwhile, the 15 to 64 years old showed a gradual increase, that is, from 51.7 per cent in 1975 to 56.82 percent in 2000.</p>
+					<p class="teacher__text">The age group of 65 and over is increasing as well, from 2.72 per cent in 1975 to 4.53 per cent in the year 2000.</p>
+					<p class="subheading"></p>
+					<h2>Education and Literacy</h2>
+					<p class="teacher__text">Literacy is classified into simple or basic and functional literacy.      Simple literacy rate, which comprises basic reading and writing skills, was computed at 93.9 per cent while functional literacy rate, that includes basic reading, writing skills and computational ability, was computed at 83.3 per cent.  Such calculations were made for both sexes.
+					</p>
+					<p class="teacher__text">As of the year 2000, majority of the Negrenses has completed the elementary grades. First to 4th grades had 331,475 while the 5th to 6th grades had a record of 244,622 pupils.
+					</p>
+					<p class="teacher__text">The age group of 35 years and over has the highest populace, having 332,166 individuals, followed by the age group of  20-24 individuals, having 91,725 individuals.
+					</p>
+					<p class="teacher__text">Male has higher number of individuals over that of the female in the age group of 5-10.  However, under the age group of 11, the female populace of 14,533 is slightly higher than the male population of 14,473.  The same is true in the age groups of 30-34 and 35 and over.
+					</p>
+					<p class="teacher__text">Only 2,346 persons attained the post -baccalaureate level, that is, under age group 35 years and over with 1,419 or 60.48% of its total number.
+					</p>
+			
+			
+			</div>
+    	  </div> <!-- / .row -->
+    	</div> <!-- / .container -->
+    </section> <!-- / .section__teacher-profile -->
+
+	<!-- section footer -->
+	<footer class="section__footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-sm-4">
+				<div class="footer_title__body">
+					<img src="assets/ico/govph-seal.png" class="img-responsive" alt="">
+					<p>
+						REPUBLIC OF THE PHILIPPINES
+					</p>
+					<!-- <div class="footer__subtitle"> -->
+						<p>All content is in the public domain unless otherwise stated.</p>
+					<!-- </div> -->
+				</div> <!-- / .footer_title__body -->
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>ABOUT GOVPH</li>
+					<li>Learn more about the Philippine government, its structure, how government works and the people behind it.</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> GOV.PH</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Open Data Portal</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Official Gazette</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>GOVERNMENT LINKS</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the President</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the Vice President</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Senate of the Philippines</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> House of Representatives</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Supreme Court</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Court of Appeals</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Sandiganbayan</a></li>
+				</ul>
+			</div>
+
+		   
+				
+			</div>
+		  </div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</footer> <!-- .section__footer -->
+	
+	<!-- section footer copyright -->
+	<div class="footer__copyright">
+  <div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
+			<div class="copyright__content">
+			<p>Philippine Standard Time: <br>
+			Day, Month, Day, Year, Time, AM/PM</p>
+		</div>
+		<!-- <ul class="quick__links">
+			<li>| <a href="index-2.html">Home</a> |</li>
+			<li><a href="about.html">About</a> |</li>
+			<li><a href="courses.html">Courses</a> |</li>
+			<li><a href="blog-grid.html">Blog</a> |</li>
+			<li><a href="contact.html">Contact</a> |</li>
+		</ul> -->
+	  </div>
+	  <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-6 col-md-pull-6">
+		<div class="copyright__content">
+		  <p>&#169; NEGOR.GOV.PH | All rights reserved.</p>
+		</div>
+	  </div>
+	</div> <!-- / .row -->
+  </div> <!-- / .container -->
+	</div> <!-- / .footer__copyright -->
+
+    <!-- JS Global -->
+    <script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/aos-master/dist/aos.js"></script>
+		<script src="assets/plugins/smothscroll/smoothscroll.js"></script>
+    <!-- JS Plugins -->
+
+    <!-- JS Custom -->
+    <!--build:js assets/js/theme.min.js -->
+    <script src="assets/js/theme.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

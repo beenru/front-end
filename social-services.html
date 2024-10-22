@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/province-logo.png">
+
+    <title>Provincial Government of Negros Oriental</title>
+    <!-- CSS Plugins -->
+		<link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS Global -->
+    <!--build:css assets/css/theme.min.css-->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!--endbuild-->
+
+  </head>
+  <body id="teacher-profile__page">
+
+    <!-- Navbar
+    ================================================== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+	  
+		  <!-- Header -->
+		  <div class="navbar-header">
+  
+			<!-- Collapse toggle -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar__collapse" aria-expanded="false">
+			  <span class="sr-only">Menu</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+  
+			<!-- Logo -->
+			<a class="navbar-brand" href="https://www.gov.ph/">
+				GOV.PH<span></span>
+			</a>
+  
+		  </div> <!-- / .navbar-header -->
+	  
+		  <!-- Links -->
+		  <div class="collapse navbar-collapse" id="navbar__collapse">
+			<ul class="nav navbar-nav navbar-left">
+			  <li><a href="index-2.html">Home <span class="sr-only">(current)</span></a></li>
+			  <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transparency <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					  <li><a href="full-disclosure.html">Full Disclosure</a></li>
+					  <li><a href="sp-reso.html">SP Resolutions</a></li>
+					  <li><a href="acc-reports.html">Accomplishment Reports</a></li>
+					  <li><a href="bayanihan-grant.html">Bayanihan Grant to Provinces</a></li>
+					  <li><a href="tofiu.html">Typhoon Odette Financial Aid Utilization</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="procurement.html">Procurement</a></li>
+			  <li><a href="blog-right-sidebar.html">News</a></li>
+			  <li class="dropdown active">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="residents.html">Residents </a></li>
+					<li><a href="natural-resources.html">Natural Resources</a></li>
+					<li><a href="human-resources.html">Human Resources</a></li>
+					<li><a href="basic-economic-services.html">Basic Economic Services</a></li>
+					<li class="active"><a href="social-services.html">Social Services</a></li>
+					<li><a href="infrastructure.html">Infrastructure</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="capitol-building.html">Capitol Building</a></li>
+					<li><a href="about.html">About Us</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+			  
+			  <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> </a></li>
+			
+			  <li class="hidden-xs">
+				
+				<!-- Search toggle -->
+				<a href="#" class="navbar-search__toggle">
+				  <i class="ion-search"></i>
+				</a>
+  
+				<!-- Search form -->
+				<div class="navbar-search">
+				  <form>
+  
+					<!-- Input -->
+					<div class="navbar-search__box">
+					  <div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+						  <button type="submit" class="btn btn-accent"><i class="ion-search"></i></button>
+						</span>
+					  </div>
+					</div> <!-- / .navbar-search__box -->
+  
+				  </form>
+				</div> <!-- / .navbar-search -->
+  
+			  </li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+  
+		</div><!-- /.container -->
+	  </nav>
+
+    <!-- CONTENT
+      ================================================== -->
+		
+		<!-- SIGNIN MODAL
+      ================================================== -->
+		<div class="modal fade" id="signinModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Sign In</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signin__form">
+
+			            <!-- Sign In form -->
+			            <form class="signin__form" role="form">
+			            	<!-- Email -->
+						  			<div class="form-group">
+				              <label for="sign-in__email" class="sr-only">Enter email</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-android-person"></i></span>
+				                <input type="email" class="form-control" id="sign-in__email" placeholder="Enter email">
+				              </div>
+			              </div>
+			              <!-- Password -->
+						  			<div class="form-group">
+				              <label for="sign-in__password" class="sr-only">Enter password</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-locked"></i></span>
+				                <input type="password" class="form-control" id="sign-in__password" placeholder="Password">
+				              </div>
+				            </div>
+			              <div class="checkbox">
+			                <label>
+			                  <input type="checkbox"> Remember me
+			                </label>
+			              </div>
+			              <button type="submit" class="btn btn-accent btn-block">Submit</button>
+			            </form>
+
+			            <div class="signin__alt">
+			            	<p>or sign in with social media</p>
+			            	<ul class="signin__social">
+			            		<li class="twitter"><a href="#"><i class="ion-social-twitter"></i></a></li>
+				              <li class="facebook"><a href="#"><i class="ion-social-facebook"></i></a></li>
+				              <li class="googleplus"><a href="#"><i class="ion-social-googleplus"></i></a></li>
+			            	</ul>
+			            </div>
+
+			            <!-- Sign Up link -->
+			            <hr>
+			            <p>Not registered? <a href="#signupModal">Create an Account.</a></p>
+
+			            <!-- Lost password form -->
+			            <p>
+			              Forgot password? <a href="#lost-password__form" data-toggle="collapse" aria-expanded="false" aria-controls="lost-password__form">Click here to recover.</a>
+			            </p>
+			            <div class="collapse" id="lost-password__form">
+			              <p class="text-muted">
+			                Enter your email address below and we will send you a link to reset your password.
+			              </p>
+			              <form class="form-inline" role="form">
+			                <div class="form-group">
+			                  <label class="sr-only" for="lost-password__email">Email address</label>
+			                  <input type="email" class="form-control" id="lost-password__email" placeholder="Enter email">
+			                </div>
+			                <button type="submit" class="btn btn-accent">Send</button>
+			              </form>
+			            </div> <!-- lost-password__form -->
+			          </div> <!-- / .body-signin__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- SIGNUP MODAL
+      ================================================== -->
+		<div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Create a New Account</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signup__form">
+									
+									<!-- Sign In form -->
+			            <div class="profile__sign-up">
+
+				            <form class="signup__form" role="form">
+				              <div class="form-group">
+				                <label class="sr-only">Full name</label>
+				                <input type="text" class="form-control" placeholder="Full name">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">Username</label>
+				                <input type="text" class="form-control" placeholder="Username">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">E-mail</label>
+				                <input type="email" class="form-control" placeholder="E-mail">
+				              </div>
+				              <div class="row">
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Password</label>
+				                    <input type="password" class="form-control" placeholder="Password">
+				                  </div>
+				                </div>
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Repeat password</label>
+				                    <input type="password" class="form-control" placeholder="Repeat password">
+				                  </div>
+				                </div>
+				              </div>
+				              <div class="checkbox">
+				                <label>
+				                  <input type="checkbox"> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+				                </label>
+				              </div><br>
+				              <button type="submit" class="btn btn-block btn-accent">
+				                Sign Up
+				              </button>
+				            </form>
+
+				            <hr>
+
+				            <p>
+				              Already registered? <a href="#signinModal">Sign in to your account</a>
+				            </p>
+
+				          </div> <!-- / .profile__sign-up -->
+			          </div> <!-- / .body-signup__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+   	<!-- section home -->
+   	<section class="section__home">
+      <div class="container home__body">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="home__content">
+              <!-- Heading -->
+              <h1 class="home__heading"></h1>
+              <!-- Breadcrumbs -->
+              	<ol class="breadcrumb">
+					<li><a href="index-2.html">Home</a></li>
+					<li class="active">Social Services</li>
+				</ol>
+
+            </div> <!-- / .home__content -->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Background image -->
+      <div class="home__bg"></div>
+    </section>
+		
+	<!-- section teacher profile -->
+    <section class="section__teacher-profile">
+    	<div class="container">
+    	  <div class="row">
+    	    <div class="col-sm-6 col-md-8">
+				<!-- <div class="teacher__post">
+					  Professor
+				  </div> -->
+				  
+				  <h2 class="teacher__name">
+					  Social Services
+				  </h2>
+				  <div class="teacher__branch">
+					  Posted on: 
+				  </div>
+					<p class="subheading"></p>
+					<h2>Education</h2>
+					<p class="teacher__text">The schools division of Oriental Negros used to have 29 school districts, each city and municipality being a school district, except Dumaguete City, it being another schools division. However, in school-year 2001-2002, the Department of Education made the cities of Bais, Bayawan and Tanjay separate interim divisions, leaving 26 school districts under the Negros Oriental schools division with 511 schools.  Shown below are the school districts under the Division of Negros Oriental.</p>
+				  	<p class="teacher__text">The First Congressional District has the highest number of schools with 257, followed by the Third Congressioal District with 149 schools and the Second Congressional District with 105 schools.</p>
+				  	
+					<p class="subheading"></p>
+					<h2>Housing</h2>
+					<p class="teacher__text">Majority of the 227,160 household population in Negros Oriental occupy housing units, either owned or rented. The types of housing units are single house, duplex, multi-unit residential, and commercial/ industrial/ agricultural/ or institutional living quarters.  The most common type of house being occupied is single, having 217,379 occupants.  Duplex type of building has 1,744 occupants, and 1,000 households occupy multi-unit residential type. The average number of occupants per housing unit is five.</p>
+					
+					<p class="subheading"></p>
+					<h2>Health and Nutrition Facilities</h2>
+					<p class="teacher__text">Health facilities in the province consist of three tertiary hospitals, seven secondary hospitals, six community primary hospitals, a diagnostic center and a dialysis center.  Tertiary hospitals include the 250-bed capacity provincial hospital, which is actually one of the district hospitals covering the towns of Dauin, Valencia, Sibulan, San Jose, Amlan and Dumaguete City.   The other two tertiary hospitals are privately-owned.</p>
+					<p class="teacher__text"><u>Health Manpower</u></p>
+					<p class="teacher__text">The entire workforce of the health sector of the provincial government consists of 36 physicians, 30 medical technologists, 68 nurses, 538 rural health midwives, nine dentists and 58 rural sanitary inspectors.  Thirty-seven per cent of these are connected with the health centers of the different municipalities.</p>
+					<p class="teacher__text"><u>Leading Causes of Morbidity and Mortality</u></p>
+					<p class="teacher__text">The leading causes of morbidity in 2003 were Upper Respiratory Tract Infection, pneumonia, influenza, diarrhea, bronchitis, cardio-vascualr disease, wounds, skin diseases, pulmonary tubercolusis, measles, parasitism, dengue fefer and urinary tract infection.</p>
+					<p class="teacher__text">The ten leading causes of mortality in the same year were cardio-vascular disease, pneumonia, cancer, pulmonary tuberculosis, accident, sepsis, all kinds of wounds, renal diseases, bleeding peptic ulcer and septicemia.</p>
+					<p class="teacher__text"><u>Infant Mortality Rate by Cause</u></p>
+					<p class="teacher__text">Pneumonia has been the first leading cause of infant death since 1995 until 2003.  This was followed by prematurity, congenital anomaly, sepsis neonatorum, sepsis, respiratory distress syndrome, asphycia, age, septicemia and acute respiratory infection.</p>
+					
+					<p class="subheading"></p>
+					<h2>Recreation Facilities</h2>
+					<p class="teacher__text">Dumaguete City has become the site of various national and regional games due to the availability of sports facilities.  The Provincial Government of Negros Oriental has continued to improve its existing sports facilities, one of which is the Congressman Lamberto L. Macias Sports Center, the first of its kind built in the province which can accommodate 5,000 people at one time.  With this, some basketball games of the Philippine Basketball Association (PBA), and national, regional, and provincial volleyball games are held here.  Some socio-cultural activities, graduation ceremonies, conventions, religious gatherings, among others, are also held in this facility.</p>
+					<p class="teacher__text">Also available is the Lorenzo G. Teves Memorial Aqua Center, located beside the Negros Oriental Perdices Coliseum in Dumaguete City.  Regional and national swimming competitions are held in this aqua pool.</p>
+					<p class="teacher__text">Other sports or recreation facilities available in the province are presented in the following table.</p>
+
+					<p class="subheading"></p>
+					<h2>Other Recreation Facilities</h2>
+					<p class="teacher__text">Dumaguete City has three (3) movie houses.  Each municipality and city has its own municipal or city park/plaza as well as cockpit.  However, the big parks are found in Dumaguete City.  Cockfighting, billiards and Jai-alai are some of the amusement activities that people in the province turn to as diversions.</p>
+
+					<p class="subheading"></p>
+					<h2>Social Welfare</h2>
+					<p class="teacher__text">The services rendered under social welfare are emergency assistance, disaster relief and rehabilitation, program for rebel returnees, population and development services, special social services for senior citizens, persons with disabilities and children.  The Department of Social Welfare and Development- retained social workers attend to community-based services such as protective services for children, youth and women as well as self-employment assistance.</p>
+					<p class="teacher__text">In 2003, PSWDO has generated a total funding of P38,566,670.00 from various sources intended for program and project implementation.  The office is manned by a 14-provincial paid staff, seven (7) national retained social workers, one (1) of whom is under a Memorandum of Agreement.  A total of 58 social welfare officers and workers are employed in the different Municipal Social Welfare and Development Offices (MSWDOs) province-wide.</p>
+					<p class="teacher__text">A total of 145 employees are connected with the different City Social Welfare and Development Offices for the whole province with Dumaguete City having the most number of employees.  Bacong, Pamplona, Siaton and Sta. Catalina are among the municipalities with the most number of workers.  In short, Negros Oriental has a grand total of 224 social welfare officers/workers.</p>
+					<p class="teacher__text">Social welfare services cater to all walks of life such as disaster victims, rebel returnees, adolescents, out-of-school youths, students, senior citizens, persons with disabilities, abused children and women and the like.</p>
+
+					<p class="subheading"></p>
+					<h2>Children's Welfare and Protection</h2>
+					<p class="teacher__text">Cases of abandoned and neglected children have so far been the ones recorded and reported to social welfare and development offices. A child is neglected when the parents or guardians do not have time to provide care, comfort, love, attention and more so, are not able to provide for the basic needs of the child.  It is so alarming to note that 19 female children and 22 male children were reported to have been neglected by parents in a very young age between 6-14 years.</p>
+
+					<p class="subheading"></p>
+					<h2>Protective Services</h2>
+					<p class="teacher__text"><u>Police Services</u></p>
+					<p class="teacher__text">Most of the municipalities in the province do not have the minimum vehicle requirement of one (1) patrol car and two (2) motorcycles, rendering inefficiency of policemen in responding to emergency calls for police assistance.</p>
+					<p class="teacher__text">The Negros Oriental Provnical Police Office has 747 assorted long firearms, 796 handguns, five (5) M60 Light Machine-guns; and 30 LMG, all issued to the Provincial Police Mobile Group.  It is equipped with 59 assorted communication equipment such as, one URC 187, one Phaser II, one V-100, 11 ICOM Base Radios, and 44 ICOM Handheld Radios.</p>
+
+					<p class="teacher__text"><u>Fire Protection</u></p>
+					<p class="teacher__text">A total of 199 personnel manned the Bureau of Fire Protection province-wide. To temporarily augment the lack of manpower for fire protection services, the local office of the Provincial Fire Marshall organized and trained the Barangay Volunteer Fire Brigade (BVFB) to be on hand during fire and other disaster emergencies in places where there are no fire fighting stations.  Recent fire incidents were recorded to be seven, all of which were suspected to be arson.  However, 96 cases of accidental fire incidents were recorded, 14 of which were of unknown motives.</p>
+
+					<p class="teacher__text"><u>Fire Trucks and Other Equipment</u></p>
+					<p class="teacher__text">A total of 17 fire trucks are available for use by the different fire stations in the province with Dumaguete City having at least five units;  Bais and Bayawan cities having two units each; and, the cities of Canlaon and Tanjay having one unit each.  Of the 20 municipalities in the province, only six municipalities have fire stations having one truck each, namely: Guihulngan, Mabinay, San Jose, Siaton, Sta. Catalina and Valencia.  Each of these is under the supervision and control of the Bureau of Fire Protection. Municipalities of Sibulan and Ayungon acquired/owned one unit fire truck each, but both local government units  prefer to handle and provide their own manpower for and maintenance to the units.</p>
+					<p class="teacher__text">Municipalities that are equipped with portable fire pump units are Basay, Zamboanguita, Dauin, Bacong, Sibulan, Amlan, Pamplona, Bindoy, Ayungon, Tayasan and Jimalalud.</p>
+
+					<p class="teacher__text"><u>Fire Prevention Activities</u></p>
+					<p class="teacher__text">Personnel of the Office of the Fire Marshall undergo mandatory training courses to enhance the capability of fire fighting personnel in the discharge of their duties.  These courses include Public Safety Basic Recruit Course (PSBRC), Fire Arson Investigation and Inspection Course (FAIIC), Public Safety Officer’s Candidate Course (PSOCC), Public Safety Officer’s Basic Course (PSOBC), Public Safety Officer’s Advanced Course (PSOAC) and Public Safety Officer’s Senior Executive Course (PSOSEC).</p>
+
+
+		  	</div>
+    	  </div> <!-- / .row -->
+    	</div> <!-- / .container -->
+    </section> <!-- / .section__teacher-profile -->
+
+	<!-- section footer -->
+	<footer class="section__footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-sm-4">
+				<div class="footer_title__body">
+					<img src="assets/ico/govph-seal.png" class="img-responsive" alt="">
+					<p>
+						REPUBLIC OF THE PHILIPPINES
+					</p>
+					<!-- <div class="footer__subtitle"> -->
+						<p>All content is in the public domain unless otherwise stated.</p>
+					<!-- </div> -->
+				</div> <!-- / .footer_title__body -->
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>ABOUT GOVPH</li>
+					<li>Learn more about the Philippine government, its structure, how government works and the people behind it.</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> GOV.PH</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Open Data Portal</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Official Gazette</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>GOVERNMENT LINKS</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the President</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the Vice President</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Senate of the Philippines</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> House of Representatives</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Supreme Court</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Court of Appeals</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Sandiganbayan</a></li>
+				</ul>
+			</div>
+
+		   
+				
+			</div>
+		  </div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</footer> <!-- .section__footer -->
+	
+	<!-- section footer copyright -->
+	<div class="footer__copyright">
+  <div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
+			<div class="copyright__content">
+			<p>Philippine Standard Time: <br>
+			Day, Month, Day, Year, Time, AM/PM</p>
+		</div>
+		<!-- <ul class="quick__links">
+			<li>| <a href="index-2.html">Home</a> |</li>
+			<li><a href="about.html">About</a> |</li>
+			<li><a href="courses.html">Courses</a> |</li>
+			<li><a href="blog-grid.html">Blog</a> |</li>
+			<li><a href="contact.html">Contact</a> |</li>
+		</ul> -->
+	  </div>
+	  <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-6 col-md-pull-6">
+		<div class="copyright__content">
+		  <p>&#169; NEGOR.GOV.PH | All rights reserved.</p>
+		</div>
+	  </div>
+	</div> <!-- / .row -->
+  </div> <!-- / .container -->
+	</div> <!-- / .footer__copyright -->
+
+    <!-- JS Global -->
+    <script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/aos-master/dist/aos.js"></script>
+		<script src="assets/plugins/smothscroll/smoothscroll.js"></script>
+    <!-- JS Plugins -->
+
+    <!-- JS Custom -->
+    <!--build:js assets/js/theme.min.js -->
+    <script src="assets/js/theme.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>

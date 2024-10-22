@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/province-logo.png">
+
+    <title>Provincial Government of Negros Oriental</title>
+    <!-- CSS Plugins -->
+		<link href="assets/plugins/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS Global -->
+    <!--build:css assets/css/theme.min.css-->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <!--endbuild-->
+
+  </head>
+  <body id="teacher-profile__page">
+
+    <!-- Navbar
+    ================================================== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+	  
+		  <!-- Header -->
+		  <div class="navbar-header">
+  
+			<!-- Collapse toggle -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar__collapse" aria-expanded="false">
+			  <span class="sr-only">Menu</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+  
+			<!-- Logo -->
+			<a class="navbar-brand" href="https://www.gov.ph/">
+				GOV.PH<span></span>
+			</a>
+  
+		  </div> <!-- / .navbar-header -->
+	  
+		  <!-- Links -->
+		  <div class="collapse navbar-collapse" id="navbar__collapse">
+			<ul class="nav navbar-nav navbar-left">
+			  <li><a href="index-2.html">Home <span class="sr-only">(current)</span></a></li>
+			  <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transparency <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					  <li><a href="full-disclosure.html">Full Disclosure</a></li>
+					  <li><a href="sp-reso.html">SP Resolutions</a></li>
+					  <li><a href="acc-reports.html">Accomplishment Reports</a></li>
+					  <li><a href="bayanihan-grant.html">Bayanihan Grant to Provinces</a></li>
+					  <li><a href="tofiu.html">Typhoon Odette Financial Aid Utilization</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="procurement.html">Procurement</a></li>
+			  <li><a href="blog-right-sidebar.html">News</a></li>
+			  <li class="dropdown active">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <i class="ion-android-arrow-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="residents.html">Residents </a></li>
+					<li class="active"><a href="natural-resources.html">Natural Resources</a></li>
+					<li><a href="human-resources.html">Human Resources</a></li>
+					<li><a href="basic-economic-services.html">Basic Economic Services</a></li>
+					<li><a href="social-services.html">Social Services</a></li>
+					<li><a href="infrastructure.html">Infrastructure</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="capitol-building.html">Capitol Building</a></li>
+					<li><a href="about.html">About Us</a></li>
+				  </ul>
+			  </li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+			  
+			  <li><a href="#signinModal" data-toggle="modal"><i class="ion-log-in"></i> </a></li>
+			
+			  <li class="hidden-xs">
+				
+				<!-- Search toggle -->
+				<a href="#" class="navbar-search__toggle">
+				  <i class="ion-search"></i>
+				</a>
+  
+				<!-- Search form -->
+				<div class="navbar-search">
+				  <form>
+  
+					<!-- Input -->
+					<div class="navbar-search__box">
+					  <div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+						  <button type="submit" class="btn btn-accent"><i class="ion-search"></i></button>
+						</span>
+					  </div>
+					</div> <!-- / .navbar-search__box -->
+  
+				  </form>
+				</div> <!-- / .navbar-search -->
+  
+			  </li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+  
+		</div><!-- /.container -->
+	  </nav>
+
+    <!-- CONTENT
+      ================================================== -->
+		
+		<!-- SIGNIN MODAL
+      ================================================== -->
+		<div class="modal fade" id="signinModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Sign In</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signin__form">
+
+			            <!-- Sign In form -->
+			            <form class="signin__form" role="form">
+			            	<!-- Email -->
+						  			<div class="form-group">
+				              <label for="sign-in__email" class="sr-only">Enter email</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-android-person"></i></span>
+				                <input type="email" class="form-control" id="sign-in__email" placeholder="Enter email">
+				              </div>
+			              </div>
+			              <!-- Password -->
+						  			<div class="form-group">
+				              <label for="sign-in__password" class="sr-only">Enter password</label>
+				              <div class="input-group">
+				                <span class="input-group-addon"><i class="ion-locked"></i></span>
+				                <input type="password" class="form-control" id="sign-in__password" placeholder="Password">
+				              </div>
+				            </div>
+			              <div class="checkbox">
+			                <label>
+			                  <input type="checkbox"> Remember me
+			                </label>
+			              </div>
+			              <button type="submit" class="btn btn-accent btn-block">Submit</button>
+			            </form>
+
+			            <div class="signin__alt">
+			            	<p>or sign in with social media</p>
+			            	<ul class="signin__social">
+			            		<li class="twitter"><a href="#"><i class="ion-social-twitter"></i></a></li>
+				              <li class="facebook"><a href="#"><i class="ion-social-facebook"></i></a></li>
+				              <li class="googleplus"><a href="#"><i class="ion-social-googleplus"></i></a></li>
+			            	</ul>
+			            </div>
+
+			            <!-- Sign Up link -->
+			            <hr>
+			            <p>Not registered? <a href="#signupModal">Create an Account.</a></p>
+
+			            <!-- Lost password form -->
+			            <p>
+			              Forgot password? <a href="#lost-password__form" data-toggle="collapse" aria-expanded="false" aria-controls="lost-password__form">Click here to recover.</a>
+			            </p>
+			            <div class="collapse" id="lost-password__form">
+			              <p class="text-muted">
+			                Enter your email address below and we will send you a link to reset your password.
+			              </p>
+			              <form class="form-inline" role="form">
+			                <div class="form-group">
+			                  <label class="sr-only" for="lost-password__email">Email address</label>
+			                  <input type="email" class="form-control" id="lost-password__email" placeholder="Enter email">
+			                </div>
+			                <button type="submit" class="btn btn-accent">Send</button>
+			              </form>
+			            </div> <!-- lost-password__form -->
+			          </div> <!-- / .body-signin__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- SIGNUP MODAL
+      ================================================== -->
+		<div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Create a New Account</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-sm-12">
+		        		<div class="body-signup__form">
+									
+									<!-- Sign In form -->
+			            <div class="profile__sign-up">
+
+				            <form class="signup__form" role="form">
+				              <div class="form-group">
+				                <label class="sr-only">Full name</label>
+				                <input type="text" class="form-control" placeholder="Full name">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">Username</label>
+				                <input type="text" class="form-control" placeholder="Username">
+				              </div>
+				              <div class="form-group">
+				                <label class="sr-only">E-mail</label>
+				                <input type="email" class="form-control" placeholder="E-mail">
+				              </div>
+				              <div class="row">
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Password</label>
+				                    <input type="password" class="form-control" placeholder="Password">
+				                  </div>
+				                </div>
+				                <div class="col-sm-6">
+				                  <div class="form-group">
+				                    <label class="sr-only">Repeat password</label>
+				                    <input type="password" class="form-control" placeholder="Repeat password">
+				                  </div>
+				                </div>
+				              </div>
+				              <div class="checkbox">
+				                <label>
+				                  <input type="checkbox"> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+				                </label>
+				              </div><br>
+				              <button type="submit" class="btn btn-block btn-accent">
+				                Sign Up
+				              </button>
+				            </form>
+
+				            <hr>
+
+				            <p>
+				              Already registered? <a href="#signinModal">Sign in to your account</a>
+				            </p>
+
+				          </div> <!-- / .profile__sign-up -->
+			          </div> <!-- / .body-signup__form -->
+		          </div>
+		        </div> <!-- / .row -->
+		      </div> <!-- / .modal-body -->
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+   	<!-- section home -->
+   	<section class="section__home">
+      <div class="container home__body">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="home__content">
+
+              <!-- Heading -->
+			   
+              <h1 class="home__heading">
+                
+              </h1>
+
+              <!-- Breadcrumbs -->
+              <ol class="breadcrumb">
+							  <li><a href="index-2.html">Home</a></li>
+							  <li class="active">Natural Resources</li>
+							</ol>
+
+            </div> <!-- / .home__content -->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Background image -->
+      <div class="home__bg"></div>
+    </section>
+		
+	<!-- section teacher profile -->
+    <section class="section__teacher-profile">
+    	<div class="container">
+    	  <div class="row">
+
+    	    <div class="col-sm-6 col-md-8">
+  	    		<!-- <div class="teacher__post">
+    					Professor
+    				</div> -->
+    				<h2 class="teacher__name">
+    					Natural Resources
+    				</h2>
+    				<div class="teacher__branch">
+    					Posted on: 
+    				</div>
+					<p class="subheading"></p>
+					<h2>Land Classification</h2>
+					<p class="teacher__text">Land classification with the respective environmental requirements or physical land characteristics is presented in this portion of the plan as a guide for the identification of land categories for protection and environmental considerations.</p>
+					<p class="teacher__text"><u>Protection Land</u></p>
+					<p class="teacher__text">Protection land is a portion of land and water set aside for its unique physical and biological significance managed to enhance biological diversity and protected against destructive human influences and impacts.  Its use involves a concept of protection that embraces not only those that have to be protected from human occupation not only because of the destructive effect such occupation will have on the resource, but also due to the hazards posed by the area on human occupants.</p>
+  					<p class="teacher__text">Categories of land under protection land include those recognized under the National Integrated Protected Area System (NIPAS) and the Non-NIPAS areas.  NIPAS include strict nature reserve, national parks, natural monument, wildlife sanctuary, protected landscapes and seascapes, resource reserve, natural biotic areas and other categories by law, conventions or institutional agreements of which the Philippines is a signatory.  Non-NIPAS categories are second growth forest above 1,000-meter elevation or more than 50 per cent slope, mangrove forests, buffer strips along rivers and escapements, freshwater swamps and marshes, and lakes and other inland water bodies.</p>
+					<p class="teacher__text">Another category of protected lands includes certain types of agricultural lands.  The concept of protection in this case varies from that of the other categories of protected areas.  Under the Network of Protected Agricultural Areas and/or the Network of Areas for Agricultural Development (NPAA/NAAD), some agricultural lands are “protected” against any form of irreversible conversion such as urban uses.  The main purpose of such protection is to keep and preserve the highly suitable agricultural lands for the long-term food security of the nation.</p>
+					<p class="teacher__text">The NPAA/NAAD includes the following categories of land:</p>
+					<ul class="blog_item__list">
+						<li><p class="teacher__text">All irrigated and potentially irrigable land.</p></li>
+						<li><p class="teacher__text">All alluvial plains that are highly suitable for agricultural production and/or can be devoted to food production, as determined by BSWM.</p></li>
+						<li><p class="teacher__text">All sustainable lands that are traditional sources of food.</p></li>
+						<li><p class="teacher__text">All cropland that supports the existing economic scale of production required to sustain the economic viability of existing agricultural infrastructure and agriculture-based enterprises in the province or region.</p></li>
+						<li><p class="teacher__text">All productive land in low calamity-risk areas that is sustainable for the production of economic trees and other cash crops.</p></li>
+						<li><p class="teacher__text">All agricultural lands that are ecologically fragile and whose conversion results in severe environmental problems.</p></li>
+					</ul>
+					<p class="teacher__text">On the basis of these definitions BSWM specified the NPAA/NAAD as consisting of the following categories:</p>
+					<ol type="a">
+						<li><p class="teacher__text"><u>Highly restricted conversion.</u>  This covers the “most efficient” agricultural lands that are the traditional sources of food and cash crops.  These are the most stable croplands and they can be grown to a wide range of crops with minimum to moderate levels of farm management requirements.  These lands are usually supported by large investments in infrastructure</p></li>
+						<li><p class="teacher__text"><u>Moderately restricted conversion.</u>  This covers “moderately efficient” lands planted to agricultural crops but which require high levels of farm management inputs. Various characteristics and qualities of these lands limit their use to a narrower range of crops, mainly agro-industrial crops.  The conversion of these lands to non-agricultural uses will depend on the results of a comparative social benefit-cost analysis</p></li>
+						<li><p class="teacher__text"><u>Conditionally restricted conversion.</u>  This covers lands that are marginal or agricultural use and more suited to agro-forestry projects, fishponds or saltbeds.  To sustain production in these areas a high level of farm management is required.  The conversion of these lands to non-agricultural use requires an intensive analysis of the environmental impact of conversion, particularly on the stability of uplands and adjacent lowlands.</p></li>
+					</ol>
+					<p class="teacher__text">There are two existing NIPAS areas in the province.  They are the Apo Island landscape and seascape with a total land area of 0.073 square kilometers and the Canlaon national park.  Proclamation No. 348 dated August 1994 declares a portion of Canlaon a national park with an area of 3.5 square kilometers.  The twin lakes of Danao and Balinsasayao in Sibulan have been proposed for consideration by the DENR as another NIPAS area that cover an aggregate area of 6.5 square kilometers.</p>
+					<p class="teacher__text">Other areas of protection land are those situated within Non-NIPAS categories, consisting an area of 1,019.725 square kilometers or 18.87 per cent of the total land area of the province.  These include land above 1,000-meter above sea-level, land exceeding 50 per cent slope, buffer strips along river banks, mangrove forest, natural forest, lakes and other inland bodies of water.</p>
+					<p class="teacher__text"><u>Protection Land</u></p>
+					<p class="teacher__text">Production land has been assessed to determine whether the existing land utilization is in accordance with the sustainability of its use.  This activity is very necessary to determine the impact of the three (3) categories of land as to their availability for further development of the province.</p>
+					<p class="teacher__text">Assessment shows that approximately 646.178 square kilometers or 14.96 per cent of the total production land area has been utilized beyond the level of land capacity.  It has been noted that even with the protection land settlements, pasture and other non-sustainable land uses exist.  Others are planted to annual crops thus exposing the land to severe soil erosion that result in siltation of rivers that subsequently affect the life of marine resources.</p>
+					<p><u>Environmentally-Constrained Lands</u></p>
+					<p class="teacher__text">Environmentally constrained areas are those that are identified to be susceptible to natural hazard such as flooding areas, volcanic hazards, fault lines, coastal zones and NPAA/NAAD Highly Restricted Agricultural lands.</p>
+					<p class="teacher__text">The cities of Tanjay, Bayawan, and Bais and the municipality of Siaton have areas that are prone to natural hazard due to the presence of volcanoes.  Active fault lines are noted in the province, however, there is no available information on the exact locations of these fault lines.</p>
+					<p class="teacher__text">The coastal zones of the province are also environmentally endangered due to the rapid growth of population.  The establishment of factories, industries and commercial enterprises along the coastal zones can cause irreparable damage to seawaters and marine ecosystem.</p>
+					<p class="subheading"></p>
+					<h2>Land Use</h2>
+					<p class="teacher__text">Land use is the way in which an area of land is actually being put into use.  It may be production land within Alienable and Disposable (A & D) land or within Timberland/Forestland.  A & D lands are normally used for irrigated rice or fishpond, cultivated annual crops, perennial tree and vine crops, and pastures.</p>
+					<p class="subheading"></p>
+					<h2>Soil</h2>
+					<p class="teacher__text">Of the total soil type classification, 24 types are found in Negros Oriental. Of the reported types, the most extensive is the rough mountainous land consisting of around 303,176.05 hectares of the total land type classified.  Faraon clay loam steep phase is the second most extensive with 67,852.888 hectares or 12.56 per cent.  The rest of the types of soils are widely distributed with Isabela clay, Faraon clay, Tupi Silt Sandy Loam, La Castellana clay and Zamboanguita clay loam as the most prevalent types.</p>
+					<p class="teacher__text">Soils are of different kinds.  They are classified into units called series and types.  The soils of Negros Oriental are subdivided into four (4) groups, namely, soils of the lowland (Secondary Soils); soils of the uplands; soils of the steep uplands (all primary soils) and the miscellaneous land types.</p>
+					<p class="teacher__text">The soil type, area in hectares and percentage distribution while thetable shows the soil suitability in the province.</p>
+					<p class="teacher__text"><u>Soil type by land terrain</u></p>
+					<p class="teacher__text"><u>San Manuel series</u></p>	
+					<p class="teacher__text">This soil series represents soils of alluvial formation and as such they are mostly along courses of rivers.  The different soil materials deposited during its formation consist of loose and friable loam, silt loam and sandy loam, which are brown to light brown in color.  The greater part of this soil has been cultivated to crops of various kinds.  San Manuel soils have deep water table.</p>
+					<p class="teacher__text">San Manuel Fine Sandy Loam (95) - loose and always inundated by flood.  Lowland rice is widely grown in this type.</p>
+					<p class="teacher__text">San Manuel Loam (190) - this soil type is found along courses of rivers both in the southern and eastern side of the province.  Coconut is the most important crop in this type.  The soil has a pH from 5.0 to 6.0.					</p>
+					<p class="teacher__text">San Manuel Taal Complex – it is found in the vicinity of Dumaguete.  It is extensively cultivated to coconut, vegetables, and a large portion is covered by the town site.  The soil is mostly   sandy with good drainage.  Taal soil is found in the interior part.</p>
+					<p class="teacher__text"><u>Mandaue Series</u></p>
+					<p class="teacher__text">It is yellowish brown surface soil.  This series occupies but very small areas fringing from the sides of hills and mountains.  Internal drainage is very poor due to the fact that all the horizons in the profile of this series are of the fine textures soils.  There are no stones or boulders on the surface.</p>
+					<p class="teacher__text"><i>Mandaue Clay (240)</i> – is of recent alluvial deposit whose materials consist mostly of clay loam to clay.  Internal drainage is poor.  Farmers utilize this soil type for lowland rice fields.  The surface soil is yellowish brown to gray depending upon drainage condition.  The surface layer ranges from 15 to 20 cm. Deep and is slightly plastic and sticky when wet.</p>
+					<p class="teacher__text"><u>Dauin Series</u></p>
+					<p class="teacher__text">Dauin soil is but a small soil formation in the southern end of the mainland.  It is low level alluvial deposit over a once marshland.  Drainage condition is poor.  This alluvium which is water laid must have originated from the upland areas.  It consists of black or dark gray laid over a meter in thickness.  Below this alluvium is partially decayed organic matter, which may be presumed to be a marsh before.  There is no stone or any rock found in this series.  In the manner, native vegetation has been entirely removed.  The water table is about a meter or less in depth from the surface.</p>
+					<p class="teacher__text"><i>Dauin Clay (415)</i>– the area is not very extensive and is used for lowland rice.  The land is a level with poor drainage condition.  This color may become lighter upon drying.  It is very sticky, soft and elastic when wet and will tend to become hard upon drying.  This soil is fairly rich in organic matter.  Green Manuring will enrich it farther and at the same time improve its physical condition.</p>
+					<p class="teacher__text"><i>Dauin Sandy Loam (416)</i> – this soil type is found between Dumaguete and Bacong.  Drainage condition is also poor and the water table is barely half a meter from the surface.  The land is extensively used for lowland rice practically all forms of native vegetation have been removed.  The surface soil has a depth of 25 cm. that is dark gray to almost black sandy loam.</p>
+					<p class="teacher__text"><u>Siaton Series</u></p>
+					<p class="teacher__text">It is one of the classes of alluvial in the province whose materials originated from the surrounding uplands.  Deposited close to this origin, these soil materials cover only a relatively narrow strip with undulating slopes.  It is slightly elevated inland and also forms high bluffs from the shorelines.  The surface soil is of medium texture brown, good medium to coarse granular and very friable.  The subsoil is brown, clay loam to sandy clay that is slightly sticky, brown to light brown.</p>
+					<p class="teacher__text">Siaton Sandy Loam (417) – external, drainage is slightly faster than internal drainage.  The surface soil is from 20 to 35 cm. in thickness and consists of very friable and loose sandy loam to silt loam.</p>
+					<p class="teacher__text"><u>Isabela Series</u></p>
+					<p class="teacher__text">It is a product of alluvial deposition occurring on low- level plains fringing the eastern sides of the mountain ranges.  These plains are narrow and extensively used for sugar cane.  This alluvial deposit is from 3 to 4 meters deep.  These qualities make this soil highly desirable for farming.Isabela Clay (256) – the soil occurs on small level coastal plains fringing from the inner mountainsides of the eastern side of the province.  This soil type has an aggregate area of 13,100 has.   The plain is practically level except for the inner areas bordering the hills and mountains having slightly higher elevation.  The surface soil to a depth 30 to 50 cm. is characteristically black.  The surface soil has a certain elevation.  The surface soil has a reaction from pH 6 to 7.  It is very slightly acidic to almost neutral.  This reaction is very favorable to sugarcane.  Where erosion is not severe this layer maybe 10 to 20 cm. deep.  This is dark red to reddish brown soil with fine granular structure.  It is always friable unless puddle.  When wet it is plastic and sticky.  It hardens upon drying and if left undisturbed it becomes friable again.</p>
+					<p class="teacher__text"><u>Lugo Series</u></p>
+					<p class="teacher__text">It is an upland soil developed from calcareous shale.  The topography is mostly hill with narrow valleys.  The land is well drained.  External drainage is an excessive that soil erosion has been very serious.  Lugo soil is black.  With the excessive soil erosion, the greater part of the surface soil is gone leaving the white parent rock exposed.  The series has been very resulting to partial or complete denudation.  Water is scanty under this type.Lugo Clay (156) – the surface soil of Lugo Clay is black or dark gray with a depth ranging from 10 to 20 cm.  The soil is heavy clay, very plastic or sticky when wet, slightly hard to moderately friable when dry.</p>
+					<p class="teacher__text"><u>Faraon Series</u></p>
+					<p class="teacher__text">This type of soil series is derived from the decomposition of coralline limestone.  This series includes soils with rolling topography to hilly area.  External drainage is good under forest but becomes excessive in the open fields.  Internal drainage is fair.  Soils under this series are black and usually clayey.  The Faraon series in the northern part of Negros Oriental is barren; its native vegetation has been completely replaced by the cultivated crops. Faraon clay (132) – the landscape has a rolling to undulating topography with slopes usually not exceeding 30 per cent.  Faraon clay is black.  There are numerous limestone rocks as erosion pavements on the surface.  The surface soil is very plastic and sticky when wet and ranging from 10-15 cm. in depth.  When dry it remains black, and seldom hardens or cracks.  It has a poor coarse granular structure when wet, but seldom hardens or cracks.  It has a poor coarse granular structure when wet, but becomes fine granular upon drying.  The subsoil is bluish black to grayish black clay, plastic and sticky when wet which slightly hardens upon drying.</p>
+					<p class="teacher__text"><u>Bolinao Series</u></p>
+					<p class="teacher__text">Red soil is classified under Bolinao series.  Bolinao and Faraon soils are similar in all respects except in color.   Bolinao series are harder and lighter in color than those in Faraon series.  Topography ranges from rolling, undulating to hilly.  Its elevation is generally just a few feet above sea level, but the hilly areas reach up to 700 feet. Bolinao clay (153) – has a very thin surface.  Where erosion is not severe, this layer may be 10 to 20 cm. deep.  This type of soil has a very thin surface soil.</p>
+					<p class="teacher__text"><u>Batuan Series</u></p>
+					<p class="teacher__text">The soil is clay.  This type of soil is dark brown to grayish brown when dry, and turns black when wet.  This soil type has coarse granular in structure.  The subsoil is clay brown to light brown.  This soil type is plastic and sticky when wet.  This is separated by abrupt boundary from the surface layer.</p>
+					<p class="teacher__text"><u>Tupi Series</u></p>
+					<p class="teacher__text">This type of soil is chiefly characterized by a black friable surface soil, occurs as undulating to rolling land with elevation of from 800 to 1,600 feet above sea level.  Drainage is fair to good.  In some places external drainage is so excessive which causes both sheets and gully erosion.  The surface soil is loam, silt loam or fine sandy loam, almost black and friable.  Gravels and even boulders are present in the substratum.  The coarse sandy or gravelly substratum is gray to grayish brown, but the subsoil is light brown sandy loam.</p>
+					<p class="teacher__text"><u>Tupi fine sandy loam (270)</u> – is found in the municipality of Valencia.  The topography is rough in the higher regions, but gradually becomes smooth as the lower part of Valencia is reached.  Drainage is generally good.  Tupi fine sandy loam has a surface soil ranging from 10 to 30 centimeters deep.  The soil is characteristically black, very friable and loose.  It is fine granular in structure to almost structure less.</p>
+					<p class="teacher__text"><u>Tupi silt loam (271)</u> – this is light brown when dry but becomes black when wet. It is very acidic having a pH value of 4.5.  Not much cultivation could be done.  Found mostly in the boundaries of Oriental and Occidental Negros.</p>
+					<p class="teacher__text"><u>Taal Series</u></p>
+					<p class="teacher__text">These are water laid volcanic soils, which lie around the eastern slope of Cuernos de Negros. It is colored light gray-to-gray soil.  Taal soil is good to almost excessive.  Taal sandy loam (56) is found as gently rolling to undulating and has an elevation of from 20 feet at Bacong to 500 feet at Palinpinon.  It is 20 to 25 cm. deep.  Coconut is the principal crop grown on this type of soil notably from Dumaguete City to Zamboanguita.</p>
+					<p class="teacher__text"><u>Guimbalaon Series</u></p>
+					<p class="teacher__text">Guimbalaon series is formed from older alluvium that consists of country rocks and washed out materials from Canlaon volcano and from other volcanic events in the island.   Guimbalaon gravelly loam (267) is found near the Occidental and Oriental boundaries of Negros along the Kabankalan-Bais road.					</p>
+					<p class="teacher__text"><i>La Castellana series</i>– was first identified in Negros Occidental.  It is also found and represented by most of the upland soils of Negros Oriental.  This series is found between Vallehermoso in the north to the hilly regions west of Dumaguete in the south.  It is chiefly characterized by dominance of large boulders.  La Castellana soil is seldom cultivated to seasonal crops.</p>
+					<p class="teacher__text"><i>Zamboanguita series</i>– this series is found in the southern part of the province and covers most of the elevated rolling areas between Zamboanguita and Siaton.  It is not very adaptable to farming operations due to the presence of many rocks.</p>
+					<p class="teacher__text"><u>Steep Upland Soils</u></p>
+					<p class="teacher__text">Running along the eastern coastal side of Negros Oriental is a range of hills and mountains.  The formation includes those of limestone to shale and volcanic.</p>
+					<p class="teacher__text">Faraon clay, steep phase (155) – this type as the phase indicates has a slope ranging from 30 to almost 100 per cent.  Under this kind of slope cultivation to clean culture crops is not advisable because soil is eroded.  This phase is found principally in the greater part of northeastern Oriental from Jimalalud to Vallehermoso and partly in the southwestern part of the province.</p>
+					<p class="teacher__text">La Castellana clay loam, steep phase (708) – this soil is found in Bais, planted mostly with sugar cane.</p>
+					<p class="teacher__text"><u>Non-Agricultural soil/u></u></p>
+					<p class="teacher__text">This is not true soil.  This includes hydrosol that are salt marshes; beach sand; river-wash and rough mountainous land (202).</p>
+					<p class="subheading"></p>
+					<h2>Forestry</h2>
+					<p class="teacher__text">The management and development of forest resources are the primary concern of the Department of Environment and Natural Resources (DENR), the provincial government of Negros Oriental, the non-government organizations, academic institutions, and other government offices. The importance of the forestry sector, aside from its economic contributions, is in the conservation of the environment and maintenance of the ecological balance.</p>
+					<p class="teacher__text"><u>Forest Area</u></p>
+					<p class="teacher__text">Negros Oriental has a total forest area of 281,386 hectares, constituting 52.09 per cent of the total land area.  This is further divided into unclassified forestlands of 63,091 hectares and classified forest lands of 218,295 hectares.  The classified forestlands include area established for reserves, timberland, national parks, game reserves, bird sanctuaries, watershed and for fishpond.</p>
+					<p class="teacher__text"><u>Timber Resources</u></p>
+					<p class="teacher__text">Negros Oriental used to have a surplus of timber until all logging concessions were summarily cancelled in 1979.  Thereafter, the province got its supply of lumber from Mindanao, particularly of the Autonomous Region in Muslim Mindanao (ARMM).  The remaining forested area of the province occasionally became a source of illegal lumber.Between 1986 and 1988, the province again enjoyed substantial supply of lumber from the remaining forest stands upon issuance of Community Timber Utilization Permit (CTUP) to upland communities, a pilot project of the Central Visayas Regional Project (CVRP).  This did not last long however, since all CTUPs were summarily cancelled in 1988 when illegal cutting and timber smuggling were very rampant.At present, the province largely depends on its wood requirements from Mindanao, Leyte, Samar, and occasionally import from Malaysia.  Another sources of wood are the natural stands and plantations from private lands.  For low cost construction, coconut lumbers are being used.  Coco lumber is even exported to Cebu as construction activities in the province continue.  Due to the limited supply and continued increase in the demand, the prices of lumber caused a considerable increase.Negros Oriental will remain to depend on dipterocarp wood until the Yemane and Mahogany plantations become ready for harvest.There is a big production of fuel wood in 2002 in the province with 2,487.15 m3 comparing it with 1,831.05 m3 in 2001.  A table  presents the timber production in Negros Oriental from 1990 to 2002.</p>
+					<p class="subheading"></p>
+					<h2>Forestry Exploitation/Destruction</h2>
+					<p class="teacher__text"><u>Illegal Logging, Timber Poaching and Slash and Burn (Kaingin)					</u></p>
+					<p class="teacher__text">Illegal logging activities are difficult to stop completely despite government effort to prohibit the activities.  Kaingin and timber poaching remain the biggest forestry problems in the province.  The cancellation of all logging concessions in Negros Oriental triggered a massive exodus of slashes and burn farmers to the uplands. In 1985, most of the timberland and remaining forested areas in the province was continuously encroached by squatters.     Likewise, the mangrove forest is not spared from exploitation.  The mangrove stand before extending along the coastal area of the province was mostly converted to fishponds. Early government efforts to restore the vegetative cover through various programs seemed futile.  Most of the established plantations were often subjected to destruction, and those that were lucky to survive rarely reached maturity due to massive poaching.  Most of the upland people who are living below poverty line cut trees for survival, while others do it for easy money and land speculation.Once, forest occupants planted their area with staple crops like rice and corn.  But recently, with the increase of the price of sugar, many “kaingin” were converted to sugarcane plantations.  As the price of sugar increases, sugarcane plantation become a lucrative investment, and more timberland areas were develop to sugarcane plantations.  This situation endangered the remaining forest because any sudden drops in the price of sugar, as experienced, constrain small farmers to sell their rights over the timberland area they occupy to affluent entities.   It is not a remote possibility that large timberland areas will became a sugarcane plantation.</p>
+					<p class="teacher__text"><u>Forest Reserves (Watershed Areas)</u></p>
+					<p class="teacher__text">The influx of farmers in the uplands right after the cancellation of all logging concessions in Negros Oriental induced deforestation, converting logged-over areas to corn and sugarcane plantations.The loss of the forest cover that serves as protective mantle caused massive erosion of topsoil especially in areas with very steep slopes.  During heavy downpour, flash floods occurred as surface run-off increase in barren areas.  Directly affected by forest denudation are irrigated rice fields.       The drying up of rivers and creeks are indicators of the need to rehabilitate the watershed areas aside from the apparent baldness of the vegetative cover in the uplands.  At present, there are three watershed projects being managed by DENR, the biggest of which is the Balinsasayao-Mt. Guinsayawan Watershed covering the municipalities of Valencia, Sibulan, San Jose and Pamplona.  The Balinsasayao-Guinsayawan covers an aggregate area of 6,000 hectares.  The outlets of this watershed are four big rivers namely, Banica, Okoy, San Jose and Amlan.      There are five watershed projects in Negros Oriental.  The biggest is the Guihulngan Watershed Project found in Tacpao and Imelda, Guihulngan.  It was established in January 2000, and the smallest is found in Tayasan.  Watershed development is classified into vegetative measure and structural measure.  A total of 406.11 hectares were developed by vegetative measure since the year 1990 up to 2002 while 11,234.36 cubic meters were developed into structural measure.      The year 1997 had the highest number of seedlings produced and distributed with a total of 174,030 seedlings. Meanwhile, the year 1990 has the biggest area of bamboo plantation with 900 hectares followed by 227 hectares in 1995.</p>
+					<p class="subheading"></p>
+					<h2>Reforestation Projects</h2>
+					<p class="teacher__text">As early as 1916, the government launched a countrywide reforestation program as an effort to ensure sustainable wood supply and improve the environment.  Reforestation in private lands was further intensified through National Reforestation Program of the former DENR by giving away free seedling to interested landowners.  Traditional reforestation method however, seemed to have minimal success.  Perhaps one factor that had contributed to the failure of the program is the negative attitude of the community towards the project.</p>
+					<p class="teacher__text"><u>Regular Reforestation Projects</u></p>
+					<p class="teacher__text">There are two regular reforestation projects in the province namely,  Mabinay Reforestation Project covering the municipalities of Mabinay and Bais City with a combined area of 4,430 hectares. The New Talinis Reforestation Project, covering the municipalities of Siaton and Sta. Catalina has a total area of 11,312 hectares.</p>
+					<p class="teacher__text"><u>Contract Reforestation</u></p>
+					<p class="teacher__text">Built in to the Community-Based Contract Reforestation Project (CBCR) is the Forest Land Management Agreement (FLMA), which gives the upland communities of the contractors the right to utilize the planted trees.  FLMA are issued to bonafide participants upon development and turnover of the area to the government.  The FLMA is good for 25 years renewable for the same period.  It is expected that timber poaching will be contained as members of the community themselves now become more vigilant and motivated to protect the plantation. Between 1989 and 1995, the province has contracted 9,826 hectares to LGUs, NGOs and Family Approach Reforestation for Associations and rebel returnees.From 1997 to date, the Community Based Forest Management Project (CBFMP) issued Community Based Forest Management Agreement to organized People Organizations (POs) after having developed the area.  The POs, as contractors, have the right to utilize, rehabilitate, protect and develop the CBFMA area for 25 years renewable for the same period in accordance with DENR existing policies and regulations.</p>
+					<p class="teacher__text"><u>Integrated Social Forestry</u></p>
+					<p class="teacher__text">As of October 31, 2003, a total of 22 Integrated Social Forestry (ISF) Project Sites were sustained by the province, and these are: (1) Bucalan, Canlaon City; (2) Maglahos, Vallehermoso; (3) Trangka Vallehermoso; (4) Pinalubngan, Tayasan; (5) Amdus, Ayungon; (6) Pagang, Caticugan, Siaton; (7) Lake Balanan, Sandulot, Siaton; (8) Sandulot Proper, Siaton; (9) Upper Panatagon, Sandulot, Siaton; (10) Lower Panatagon, Sandulot, Siaton; (11) Jumalon, Maloh, Siaton; (12) Hingles, San Francisco, Sta. Catalina; (13) Nagbalaye, Sta. Catalina in (3) three sites ( a. Cambat-aw b. Dapin-anon  c. Malbog); (14) San Jose, Sta. Catalina; (15) Canggabok, Nagbinlod, Sta. Catalina; (16) Guintanaan, Tayawan, Bayawan; (17) Pinosoan, Alangilan, Sta Catalina; (18) San Miguel, Bayawan; (19) Mabuhay, Sta. Catalina; (20) Manangobsob, Sandulot, Siaton; (21) Nagsig-id, Sandulot, Siaton and (22) Inawasan, Pamplona, five of which were newly established, they are (1) Maglahos, Vallehermoso; (2) Sandulot Proper, Siaton; (3) Upper Panatagon, Sandulot, Siaton; (4) Lower Panatagon, Sandulot, Siaton and (5) Inawasan, Pamplona.</p>
+					<p class="subheading"></p>
+					<h2>Mineral Resources</h2>
+					<p class="teacher__text">Mineral is classified into metallic and non-metallic.  Metallic minerals are those that are shiny inorganic substance such as gold, copper and iron while non-metallic minerals are substances that are not shiny such as gypsum, lime and sulfur.Topping the list is copper, which was previously mined in Basay.  Copper is also evident in four (4) other municipalities, namely:  Jimalalud, Manjuyod, Sibulan and Valencia. Copper can be used in electrical wires, fungicides, and even water proofing compounds.					</p>
+					<p class="subheading"></p>
+  					<p class="teacher__text">
+						Mineral Reserves
+  					</p>	
+					<div class="row">
+						<table class="table">
+							<tbody>
+							  <tr>
+								<th scope="row">a</th>
+								<td>Metallic (metric tons)</td>
+								<td>Reserve Estimates</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Copper</td>
+								<td>184,342,000</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Iron</td>
+								<td>890,221,057</td>
+							  </tr>
+							  <tr>
+								<th scope="row">b</th>
+								<td>Non-Metallic</td>
+								<td></td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Limestone</td>
+								<td>  947,300 </td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Rock Phosphate</td>
+								<td>36,000</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Gypsum</td>
+								<td>500,000</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>White & Red Burning Clay </td>
+								<td>3,556,999</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Cement Raw Materials</td>
+								<td> 499,079,300</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Silica</td>
+								<td>530,042,500</td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Bauxite</td>
+								<td>9,000 </td>
+							  </tr>
+							  <tr>
+								<th scope="row"></th>
+								<td>Volcanic Tuff</td>
+								<td> 887,357,057</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>	  
+					<p class="teacher__text">Another mineral found in the municipalities of Jimalalud, Tayasan, Sibulan and Valencia is iron and some of its related compounds of magnetite, pyrite and marcasite.  Pyrite deposits are also evident in Vallehermoso and Basay.  More exhaustive studies are needed to determine their potentials for the development of the iron and steel industry in the province.  Iron can also be used in the preparation of sulfuric acid. The largest deposit of sulfur in the country is reportedly found in Negros Oriental.  Sulfur is used in the making of sulfuric acid, and in the manufacture of fertilizers, insecticides, and explosives and in vulcanizing rubMagnesium can only be found in Guihulngan. Magnesium can be used in the steel industry, in the manufacture of magnesia bricks, packing stem pipes and in any production process which involves a lining capable of withstanding very high temperature.There are also coal deposits in Jimalalud and Bayawan but the coals potential as a fuel source is still undetermined.  However, lignite, another mineral in the coal family has been found in Mabinay.  This mineral, known for its penetratingly black color and often referred to as “jet” can be used in the making of jewelry when combined with other locally available resources.The most abundant resource in Negros Oriental is lime in various forms.  Lime is utilized in refining sugar, neutralizing acids, in structural purposes, agriculture, whiting, and road paving mixtures.The white clay in Guihulngan, Ayungon and Manjuyod is of especially high quality and would be very useful in the manufacture of decorative brick or ceramics.  The yellow clays in Manjuyod and Ayungon can be used in stopping leakages in soils and dikes or even as a sewer pipes.Deposits of gypsum can be found in Tayasan, La Libertad, Guihulngan, Jimalalud, Ayungon, and Valencia.  Gypsum is used in wall plasters, dental plasters, fertilizers, explosives, textile finishing, paint, and as filler in making paper.Extensive deposits of silica can be found in Ayungon, Siaton and Guihulngan.  Silica is useful as an abrasive and filler sand but can also be used in the manufacture of glass and bricks.The deposit in La Libertad is the only source of diatomite in the province.  It can be used as filler in mortars and cement in insulation products, explosives and even plastics.</p>
+					<p class="teacher__text"><u>Mineral Production Volume</u></p>
+					<p class="teacher__text">In the volume of non-metallic mineral produced, silica quartz got the biggest with 14,505 and 1,856 cubic meters in 1990 and 1991 respectively, however, operation was suspended in 1992.</p>
+					<p class="teacher__text">Value of Production (‘000)</p>
+					<p class="teacher__text">As of 1993, In terms of value of production, limestone got the biggest number in value that amounted to P13,400,000 followed by hydrated lime  and industrial lime at P118,750 and P109,600 respectively.</p>
+					<p class="subheading"></p>
+					<h2>Sand and Gravel</h2>
+					<p class="teacher__text">Sand and gravel can be found throughout the coastal municipalities of the province which are being used in the manufacture of hollow blocks and glass, and both materials are used as filters and in building and paving construction.   As of June 2003, there are 47 permittees/operators existing in the province.
+					</p>
+					<p class="teacher__text">For 2001-2002, the highest number of permits issued for sand and gravel was under commercial small-scale quarry with a total of 196 permitees. Gratuitous permits had only 19 permits and special permits were granted to only 17 individuals.
+					</p>
+					<p class="teacher__text">One form of quarrying is Small Scale Quarry. This refers to quarry relying heavily on manual labor using simple implements and methods and do not use explosives or heavy quarry equipment.  In 2001-2002, Commercial Small Scale Quarry totaled 17, the highest in comparison with gratuitous with only two and regular with just one.
+					</p>
+					<p class="teacher__text">The volume of extraction of quarry resources allowed by the Local Government Unit.  It should be noted that ballastro gained the highest volume allowed with a total of 880,248 cubic meters followed by sand with 617,965 cubic meters.
+					</p>
+    	    </div>
+    	  </div> <!-- / .row -->
+    	</div> <!-- / .container -->
+    </section> <!-- / .section__teacher-profile -->
+
+	<!-- section footer -->
+	<footer class="section__footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-sm-4">
+				<div class="footer_title__body">
+					<img src="assets/ico/govph-seal.png" class="img-responsive" alt="">
+					<p>
+						REPUBLIC OF THE PHILIPPINES
+					</p>
+					<!-- <div class="footer__subtitle"> -->
+						<p>All content is in the public domain unless otherwise stated.</p>
+					<!-- </div> -->
+				</div> <!-- / .footer_title__body -->
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>ABOUT GOVPH</li>
+					<li>Learn more about the Philippine government, its structure, how government works and the people behind it.</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> GOV.PH</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Open Data Portal</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Official Gazette</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-4">
+				<ul class="footer-links__list">
+					<li>GOVERNMENT LINKS</li>
+					<li><a href="https://www.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the President</a></li>
+					<li><a href="https://www.gov.ph/data" target="_blank"><i class="ion-ios-arrow-forward"></i> Office of the Vice President</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Senate of the Philippines</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> House of Representatives</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Supreme Court</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Court of Appeals</a></li>
+					<li><a href="https://www.officialgazette.gov.ph/" target="_blank"><i class="ion-ios-arrow-forward"></i> Sandiganbayan</a></li>
+				</ul>
+			</div>
+
+		   
+				
+			</div>
+		  </div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</footer> <!-- .section__footer -->
+	
+	<!-- section footer copyright -->
+	<div class="footer__copyright">
+  <div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-6 col-md-push-6">
+			<div class="copyright__content">
+			<p>Philippine Standard Time: <br>
+			Day, Month, Day, Year, Time, AM/PM</p>
+		</div>
+		<!-- <ul class="quick__links">
+			<li>| <a href="index-2.html">Home</a> |</li>
+			<li><a href="about.html">About</a> |</li>
+			<li><a href="courses.html">Courses</a> |</li>
+			<li><a href="blog-grid.html">Blog</a> |</li>
+			<li><a href="contact.html">Contact</a> |</li>
+		</ul> -->
+	  </div>
+	  <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-6 col-md-pull-6">
+		<div class="copyright__content">
+		  <p>&#169; NEGOR.GOV.PH | All rights reserved.</p>
+		</div>
+	  </div>
+	</div> <!-- / .row -->
+  </div> <!-- / .container -->
+	</div> <!-- / .footer__copyright -->
+
+    <!-- JS Global -->
+    <script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/aos-master/dist/aos.js"></script>
+		<script src="assets/plugins/smothscroll/smoothscroll.js"></script>
+    <!-- JS Plugins -->
+
+    <!-- JS Custom -->
+    <!--build:js assets/js/theme.min.js -->
+    <script src="assets/js/theme.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
