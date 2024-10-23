@@ -7837,7 +7837,7 @@ button.close {
 }
 #index__page .section__coming-soon {
   background-color: #f4f4f4;
-  padding: 100px 0;
+  padding: 40px 0;
   /*** 10.1. Coming Soon clock ***/
   /*** 10.2. Coming Soon text ***/
   /*** 10.3. Coming Soon image ***/
@@ -7852,42 +7852,21 @@ button.close {
     padding: 60px 0;
   }
 }
-#index__page .section__coming-soon #clock {
-  font-family: 'Sintony', sans-serif;
-}
-@media (max-width: 991px) {
-  #index__page .section__coming-soon #clock {
-    text-align: center;
-  }
-}
-#index__page .section__coming-soon #clock > span {
-  font-size: 64px;
-  font-weight: 700;
-  color: #2d4052;
-  font-family: 'Poppins', sans-serif;
-}
-@media (max-width: 1199px) {
-  #index__page .section__coming-soon #clock > span {
-    font-size: 64px;
-  }
-}
-@media (max-width: 767px) {
-  #index__page .section__coming-soon #clock > span {
-    font-size: 56px;
-    padding-left: 30px;
-  }
+#index__page .section__coming-soon .coming-soon__text {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
 }
 #index__page .section__coming-soon .coming-soon__text .coming-soon__title {
   text-transform: uppercase;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: #2d4052;
-  font-size: 42px;
-  margin-bottom: 20px;
+  color: #843534;
+  font-size: 20px;
 }
 @media (max-width: 1199px) {
   #index__page .section__coming-soon .coming-soon__text .coming-soon__title {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 @media (max-width: 991px) {
@@ -7897,36 +7876,34 @@ button.close {
 }
 @media (max-width: 767px) {
   #index__page .section__coming-soon .coming-soon__text .coming-soon__title {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 #index__page .section__coming-soon .coming-soon__text .coming-soon__title > span {
   color: #fa6e4f;
 }
-#index__page .section__coming-soon .coming-soon__img {
-  margin-top: -150px;
-  margin-bottom: 50px;
-  box-shadow: 0px 0px 20px 10px rgba(169, 169, 169, 0.4);
+#index__page .section__coming-soon .coming-soon__text .coming-soon__desc {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #843534;  
 }
 @media (max-width: 1199px) {
-  #index__page .section__coming-soon .coming-soon__img {
-    margin-top: -90px;
+  #index__page .section__coming-soon .coming-soon__text .coming-soon__desc {
+    font-size: 20px;
   }
 }
 @media (max-width: 991px) {
-  #index__page .section__coming-soon .coming-soon__img {
-    margin-top: 40px;
+  #index__page .section__coming-soon .coming-soon__text .coming-soon__desc {
+    text-align: center;
   }
-}
-#index__page .section__blog {
-  padding: 100px 0;
-  /*** 11.1. Blog item ***/
 }
 @media (max-width: 767px) {
-  #index__page .section__blog {
-    padding: 60px 0;
+  #index__page .section__coming-soon .coming-soon__text .coming-soon__desc {
+    font-size: 20px;
   }
 }
+
 #index__page .section__blog .blog__item {
   border: 1px solid rgba(169, 169, 169, 0.6);
   margin: 40px 0 60px;
