@@ -14250,7 +14250,7 @@ button [type='button'],
   color: #ffffff;
 }
 .footer__copyright .copyright__content {
-  text-align: left;
+  text-align: center;
   font-size: 12px;
   letter-spacing: 0.05em;
 }
